@@ -1,0 +1,82 @@
+﻿  Trajectory.cpp
+  MouseTracking.cpp
+  straight3d.cpp
+c:\users\student\desktop\git\syukatu\吉田学園情報ビジネス専門学校_佐藤秀亮\エフェクトツール\作品フォルダ\effect_tool\effect_tool\straight3d.cpp(88): warning C4553: '==': 演算子にプログラム上の作用がありません。'=' を意図しましたか?
+  SetMesh.cpp
+  SetEffect3d.cpp
+c:\users\student\desktop\git\syukatu\吉田学園情報ビジネス専門学校_佐藤秀亮\エフェクトツール\作品フォルダ\effect_tool\effect_tool\seteffect3d.cpp(136): warning C4244: '引数': 'double' から 'float' への変換です。データが失われる可能性があります。
+  seteffect.cpp
+  scene3d.cpp
+  scene2d.cpp
+  scene.cpp
+  Rotate.cpp
+  renderer.cpp
+c:\users\student\desktop\git\syukatu\吉田学園情報ビジネス専門学校_佐藤秀亮\エフェクトツール\作品フォルダ\effect_tool\effect_tool\renderer.cpp(411): warning C4456: 'mode' を宣言すると、以前のローカル宣言が隠蔽されます
+  c:\users\student\desktop\git\syukatu\吉田学園情報ビジネス専門学校_佐藤秀亮\エフェクトツール\作品フォルダ\effect_tool\effect_tool\renderer.cpp(404): note: 'mode' の宣言を確認してください
+c:\users\student\desktop\git\syukatu\吉田学園情報ビジネス専門学校_佐藤秀亮\エフェクトツール\作品フォルダ\effect_tool\effect_tool\renderer.cpp(404): warning C4189: 'mode': ローカル変数が初期化されましたが、参照されていません
+  PresetSetEffect.cpp
+c:\users\student\desktop\git\syukatu\吉田学園情報ビジネス専門学校_佐藤秀亮\エフェクトツール\作品フォルダ\effect_tool\effect_tool\presetseteffect.cpp(469): warning C4244: '引数': 'int' から 'float' への変換です。データが失われる可能性があります。
+c:\users\student\desktop\git\syukatu\吉田学園情報ビジネス専門学校_佐藤秀亮\エフェクトツール\作品フォルダ\effect_tool\effect_tool\presetseteffect.cpp(469): warning C4244: '引数': 'double' から 'float' への変換です。データが失われる可能性があります。
+  player.cpp
+  plane.cpp
+  object.cpp
+  Movement.cpp
+c:\users\student\desktop\git\syukatu\吉田学園情報ビジネス専門学校_佐藤秀亮\エフェクトツール\作品フォルダ\effect_tool\effect_tool\movement.cpp(37): warning C4458: 'nSynthetic' を宣言すると、クラス メンバーが隠蔽されます
+  c:\users\student\desktop\git\syukatu\吉田学園情報ビジネス専門学校_佐藤秀亮\エフェクトツール\作品フォルダ\effect_tool\effect_tool\effect.h(40): note: 'CEffect::nSynthetic' の宣言を確認してください
+  mouse.cpp
+  model.cpp
+  MeshEffect.cpp
+  manager.cpp
+  コードを生成中...
+c:\users\student\desktop\git\syukatu\吉田学園情報ビジネス専門学校_佐藤秀亮\エフェクトツール\作品フォルダ\effect_tool\effect_tool\renderer.cpp(367): warning C4702: 制御が渡らないコードです。
+  コンパイル中...
+  main.cpp
+  LoadEffect.cpp
+c:\users\student\desktop\git\syukatu\吉田学園情報ビジネス専門学校_佐藤秀亮\エフェクトツール\作品フォルダ\effect_tool\effect_tool\loadeffect.cpp(384): warning C4800: 'int': ブール値を 'true' または 'false' に強制的に設定します (警告の処理)
+c:\users\student\desktop\git\syukatu\吉田学園情報ビジネス専門学校_佐藤秀亮\エフェクトツール\作品フォルダ\effect_tool\effect_tool\loadeffect.cpp(397): warning C4800: 'int': ブール値を 'true' または 'false' に強制的に設定します (警告の処理)
+c:\users\student\desktop\git\syukatu\吉田学園情報ビジネス専門学校_佐藤秀亮\エフェクトツール\作品フォルダ\effect_tool\effect_tool\loadeffect.cpp(399): warning C4800: 'int': ブール値を 'true' または 'false' に強制的に設定します (警告の処理)
+  load.cpp
+  light.cpp
+  keyboard.cpp
+  IntermediateSave.cpp
+  input.cpp
+  FieldEffect.cpp
+c:\users\student\desktop\git\syukatu\吉田学園情報ビジネス専門学校_佐藤秀亮\エフェクトツール\作品フォルダ\effect_tool\effect_tool\fieldeffect.cpp(152): warning C4244: '初期化中': 'int' から 'float' への変換です。データが失われる可能性があります。
+c:\users\student\desktop\git\syukatu\吉田学園情報ビジネス専門学校_佐藤秀亮\エフェクトツール\作品フォルダ\effect_tool\effect_tool\fieldeffect.cpp(173): warning C4244: '引数': 'double' から 'FLOAT' への変換です。データが失われる可能性があります。
+c:\users\student\desktop\git\syukatu\吉田学園情報ビジネス専門学校_佐藤秀亮\エフェクトツール\作品フォルダ\effect_tool\effect_tool\fieldeffect.cpp(183): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+c:\users\student\desktop\git\syukatu\吉田学園情報ビジネス専門学校_佐藤秀亮\エフェクトツール\作品フォルダ\effect_tool\effect_tool\fieldeffect.cpp(256): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+  field.cpp
+  fade.cpp
+  effect.cpp
+  control.cpp
+  camera.cpp
+  Butten.cpp
+c:\users\student\desktop\git\syukatu\吉田学園情報ビジネス専門学校_佐藤秀亮\エフェクトツール\作品フォルダ\effect_tool\effect_tool\butten.cpp(135): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+c:\users\student\desktop\git\syukatu\吉田学園情報ビジネス専門学校_佐藤秀亮\エフェクトツール\作品フォルダ\effect_tool\effect_tool\butten.cpp(93): warning C4189: 'bMousecursor': ローカル変数が初期化されましたが、参照されていません
+c:\users\student\desktop\git\syukatu\吉田学園情報ビジネス専門学校_佐藤秀亮\エフェクトツール\作品フォルダ\effect_tool\effect_tool\butten.cpp(176): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+c:\users\student\desktop\git\syukatu\吉田学園情報ビジネス専門学校_佐藤秀亮\エフェクトツール\作品フォルダ\effect_tool\effect_tool\butten.cpp(180): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+c:\users\student\desktop\git\syukatu\吉田学園情報ビジネス専門学校_佐藤秀亮\エフェクトツール\作品フォルダ\effect_tool\effect_tool\butten.cpp(183): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+c:\users\student\desktop\git\syukatu\吉田学園情報ビジネス専門学校_佐藤秀亮\エフェクトツール\作品フォルダ\effect_tool\effect_tool\butten.cpp(186): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+c:\users\student\desktop\git\syukatu\吉田学園情報ビジネス専門学校_佐藤秀亮\エフェクトツール\作品フォルダ\effect_tool\effect_tool\butten.cpp(195): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+c:\users\student\desktop\git\syukatu\吉田学園情報ビジネス専門学校_佐藤秀亮\エフェクトツール\作品フォルダ\effect_tool\effect_tool\butten.cpp(198): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+c:\users\student\desktop\git\syukatu\吉田学園情報ビジネス専門学校_佐藤秀亮\エフェクトツール\作品フォルダ\effect_tool\effect_tool\butten.cpp(201): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+c:\users\student\desktop\git\syukatu\吉田学園情報ビジネス専門学校_佐藤秀亮\エフェクトツール\作品フォルダ\effect_tool\effect_tool\butten.cpp(204): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+c:\users\student\desktop\git\syukatu\吉田学園情報ビジネス専門学校_佐藤秀亮\エフェクトツール\作品フォルダ\effect_tool\effect_tool\butten.cpp(243): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+c:\users\student\desktop\git\syukatu\吉田学園情報ビジネス専門学校_佐藤秀亮\エフェクトツール\作品フォルダ\effect_tool\effect_tool\butten.cpp(247): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+c:\users\student\desktop\git\syukatu\吉田学園情報ビジネス専門学校_佐藤秀亮\エフェクトツール\作品フォルダ\effect_tool\effect_tool\butten.cpp(250): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+c:\users\student\desktop\git\syukatu\吉田学園情報ビジネス専門学校_佐藤秀亮\エフェクトツール\作品フォルダ\effect_tool\effect_tool\butten.cpp(253): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+c:\users\student\desktop\git\syukatu\吉田学園情報ビジネス専門学校_佐藤秀亮\エフェクトツール\作品フォルダ\effect_tool\effect_tool\butten.cpp(256): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+c:\users\student\desktop\git\syukatu\吉田学園情報ビジネス専門学校_佐藤秀亮\エフェクトツール\作品フォルダ\effect_tool\effect_tool\butten.cpp(268): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+c:\users\student\desktop\git\syukatu\吉田学園情報ビジネス専門学校_佐藤秀亮\エフェクトツール\作品フォルダ\effect_tool\effect_tool\butten.cpp(271): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+c:\users\student\desktop\git\syukatu\吉田学園情報ビジネス専門学校_佐藤秀亮\エフェクトツール\作品フォルダ\effect_tool\effect_tool\butten.cpp(277): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+c:\users\student\desktop\git\syukatu\吉田学園情報ビジネス専門学校_佐藤秀亮\エフェクトツール\作品フォルダ\effect_tool\effect_tool\butten.cpp(283): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+c:\users\student\desktop\git\syukatu\吉田学園情報ビジネス専門学校_佐藤秀亮\エフェクトツール\作品フォルダ\effect_tool\effect_tool\butten.cpp(292): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+c:\users\student\desktop\git\syukatu\吉田学園情報ビジネス専門学校_佐藤秀亮\エフェクトツール\作品フォルダ\effect_tool\effect_tool\butten.cpp(295): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+c:\users\student\desktop\git\syukatu\吉田学園情報ビジネス専門学校_佐藤秀亮\エフェクトツール\作品フォルダ\effect_tool\effect_tool\butten.cpp(298): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+c:\users\student\desktop\git\syukatu\吉田学園情報ビジネス専門学校_佐藤秀亮\エフェクトツール\作品フォルダ\effect_tool\effect_tool\butten.cpp(171): warning C4100: 'nNum': 引数は関数の本体部で 1 度も参照されません。
+  billeffect.cpp
+  3DScene.cpp
+  2DScene.cpp
+  コードを生成中...
+  Effect_Tool.vcxproj -> C:\Users\student\Desktop\git\Syukatu\吉田学園情報ビジネス専門学校_佐藤秀亮\エフェクトツール\作品フォルダ\Effect_Tool\Debug\Effect_Tool.exe
+  Effect_Tool.vcxproj -> C:\Users\student\Desktop\git\Syukatu\吉田学園情報ビジネス専門学校_佐藤秀亮\エフェクトツール\作品フォルダ\Effect_Tool\Debug\Effect_Tool.pdb (Full PDB)

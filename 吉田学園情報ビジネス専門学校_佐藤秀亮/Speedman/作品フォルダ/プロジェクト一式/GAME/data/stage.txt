@@ -1,0 +1,601 @@
+#==============================================================================
+#
+# 『モデルビューワ』スクリプトファイル [model.txt]
+# Author : AKIRA TANAKA
+#
+#==============================================================================
+SCRIPT			# この行は絶対消さないこと！
+
+#------------------------------------------------------------------------------
+# テクスチャ数
+#------------------------------------------------------------------------------
+NUM_TEXTURE = 4
+
+#------------------------------------------------------------------------------
+# テクスチャファイル名
+#------------------------------------------------------------------------------
+TEXTURE_FILENAME = data/TEXTURE/sky000.jpg			# [0]空テクスチャ
+TEXTURE_FILENAME = data/TEXTURE/mountain000.png		# [1]山テクスチャ
+TEXTURE_FILENAME = data/TEXTURE/field000.jpg		# [2]地面テクスチャ
+TEXTURE_FILENAME = data/TEXTURE/wall100.jpg			# [3]壁テクスチャ
+
+#------------------------------------------------------------------------------
+# モデル数
+#------------------------------------------------------------------------------
+NUM_MODEL = 8
+
+#------------------------------------------------------------------------------
+# モデルファイル名
+#------------------------------------------------------------------------------
+MODEL_FILENAME = data/MODEL/block_1.x					# [0]ブロック
+MODEL_FILENAME = data/MODEL/ball.x					# [1]鉄球
+MODEL_FILENAME = data/MODEL/Pillar.x				# [2]丸太
+MODEL_FILENAME = data/MODEL/zip.x					# [3]ジップ
+MODEL_FILENAME = data/MODEL/jumppad.x				# [4]ジャンプパッド
+MODEL_FILENAME = data/MODEL/check.x					# [5]チェックポイント
+MODEL_FILENAME = data/MODEL/gateYoko.x				# [6]ゲート横
+MODEL_FILENAME = data/MODEL/gateTate.x				# [7]ゲート縦
+
+#------------------------------------------------------------------------------
+# カメラ情報
+#------------------------------------------------------------------------------
+CAMERASET
+	POS = 0.0 140.0 1200.0			# 視点
+	REF = 0.0 0.0 1500.0				# 注視点
+END_CAMERASET
+
+#------------------------------------------------------------------------------
+# ライト情報
+#------------------------------------------------------------------------------
+LIGHTSET
+	DIRECTION = 0.22 -0.87 0.44		# 方向
+	DIFFUSE = 1.0 1.0 1.0			# 拡散光
+END_LIGHTSET
+
+LIGHTSET
+	DIRECTION = -0.18 0.88 -0.44	# 方向
+	DIFFUSE = 0.65 0.65 0.65		# 拡散光
+END_LIGHTSET
+
+LIGHTSET
+	DIRECTION = 0.89 -0.11 0.44		# 方向
+	DIFFUSE = 0.15 0.15 0.15		# 拡散光
+END_LIGHTSET
+
+#------------------------------------------------------------------------------
+# 空情報
+#------------------------------------------------------------------------------
+SKYSET
+	TEXTYPE = 6
+	MOVE = 0.00002
+END_SKYSET
+
+#------------------------------------------------------------------------------
+# 山情報
+#------------------------------------------------------------------------------
+
+
+#------------------------------------------------------------------------------
+# 地面情報
+#------------------------------------------------------------------------------
+FIELDSET
+	TEXTYPE = 2
+	POS = 0 0 0
+	ROT = 0 0 0
+	BLOCK = 1.0 1.0
+	SIZE = 40 40
+END_FIELDSET
+
+FIELDSET
+	TEXTYPE = 2
+	POS = 0 0 1500
+	ROT = 0 0 0
+	BLOCK = 8.0 4.0
+	SIZE = 40 40
+END_FIELDSET
+
+FIELDSET
+	TEXTYPE = 2
+	POS = 0 0 3000
+	ROT = 0 0 0
+	BLOCK = 8.0 4.0
+	SIZE = 40 40
+END_FIELDSET
+
+FIELDSET
+	TEXTYPE = 2
+	POS = 0 60 3780
+	ROT = -10 0 0
+	BLOCK = 6.5 11.0
+	SIZE = 40 40
+END_FIELDSET
+
+FIELDSET
+	TEXTYPE = 2
+	POS = 0 600 5550
+	ROT = 0 0 0
+	BLOCK = 8.0 4.0
+	SIZE = 40 40
+END_FIELDSET
+
+#------------------------------------------------------------------------------
+# 壁情報
+#------------------------------------------------------------------------------
+WALLSET
+	TEXTYPE = 1
+	POS = 0 -40 40
+	ROT = 0 180 0
+	BLOCK = 1.0 1.0
+	SIZE = 40 40
+END_WALLSET
+
+WALLSET
+	TEXTYPE = 1
+	POS = 40 -40 0
+	ROT = 0 270 0
+	BLOCK = 1.0 1.0
+	SIZE = 40 40
+END_WALLSET
+
+WALLSET
+	TEXTYPE = 1
+	POS = 0 -40 -40
+	ROT = 0 0 0
+	BLOCK = 1.0 1.0
+	SIZE = 40 40
+END_WALLSET
+
+WALLSET
+	TEXTYPE = 1
+	POS = -40 -40 0
+	ROT = 0 90 0
+	BLOCK = 1.0 1.0
+	SIZE = 40 40
+END_WALLSET
+
+WALLSET
+	TEXTYPE = 1
+	POS = 0 -40 1340
+	ROT = 0 0 0
+	BLOCK = 8.0 1.0
+	SIZE = 40 40
+END_WALLSET
+
+WALLSET
+	TEXTYPE = 1
+	POS = 0 -40 1660
+	ROT = 0 180 0
+	BLOCK = 8.0 1.0
+	SIZE = 40 40
+END_WALLSET
+
+WALLSET
+	TEXTYPE = 1
+	POS = -320 -40 1500
+	ROT = 0 90 0
+	BLOCK = 4.0 1.0
+	SIZE = 40 40
+END_WALLSET
+
+WALLSET
+	TEXTYPE = 1
+	POS = 320 -40 1500
+	ROT = 0 -90 0
+	BLOCK = 4.0 1.0
+	SIZE = 40 40
+END_WALLSET
+
+WALLSET
+	TEXTYPE = 1
+	POS = 0 -40 2840
+	ROT = 0 0 0
+	BLOCK = 8.0 1.0
+	SIZE = 40 40
+END_WALLSET
+
+WALLSET
+	TEXTYPE = 1
+	POS = 0 -40 3160
+	ROT = 0 180 0
+	BLOCK = 8.0 1.0
+	SIZE = 40 40
+END_WALLSET
+
+WALLSET
+	TEXTYPE = 1
+	POS = -320 -40 3000
+	ROT = 0 90 0
+	BLOCK = 4.0 1.0
+	SIZE = 40 40
+END_WALLSET
+
+WALLSET
+	TEXTYPE = 1
+	POS = 320 -40 3000
+	ROT = 0 -90 0
+	BLOCK = 4.0 1.0
+	SIZE = 40 40
+END_WALLSET
+
+WALLSET
+	TEXTYPE = 1
+	POS = 0 -55 3347
+	ROT = -10 0 0
+	BLOCK = 6.5 1.0
+	SIZE = 40 40
+END_WALLSET
+
+WALLSET
+	TEXTYPE = 1
+	POS = 0 98 4227
+	ROT = 10 180 0
+	BLOCK = 6.5 1.0
+	SIZE = 40 40
+END_WALLSET
+
+WALLSET
+	TEXTYPE = 1
+	POS = -260 21 3787
+	ROT = 0 90 -10
+	BLOCK = 11.2 1.0
+	SIZE = 40 40
+END_WALLSET
+
+WALLSET
+	TEXTYPE = 1
+	POS = 260 21 3787
+	ROT = 0 -90 10
+	BLOCK = 11.2 1.0
+	SIZE = 40 40
+END_WALLSET
+
+WALLSET
+	TEXTYPE = 1
+	POS = 0 560 5390
+	ROT = 0 0 0
+	BLOCK = 8.0 1.0
+	SIZE = 40 40
+END_WALLSET
+
+WALLSET
+	TEXTYPE = 1
+	POS = 0 560 5710
+	ROT = 0 180 0
+	BLOCK = 8.0 1.0
+	SIZE = 40 40
+END_WALLSET
+
+WALLSET
+	TEXTYPE = 1
+	POS = -320 560 5550
+	ROT = 0 90 0
+	BLOCK = 4.0 1.0
+	SIZE = 40 40
+END_WALLSET
+
+WALLSET
+	TEXTYPE = 1
+	POS = 320 560 5550
+	ROT = 0 -90 0
+	BLOCK = 4.0 1.0
+	SIZE = 40 40
+END_WALLSET
+
+#------------------
+# ジップライン
+#------------------
+WALLSET
+	TEXTYPE = 0
+	POS = 0 85 2250
+	ROT = 0 -90 0
+	BLOCK = 6.5 1.0
+	SIZE = 100 1
+END_WALLSET
+
+WALLSET
+	TEXTYPE = 0
+	POS = 0 85 2250
+	ROT = 0 90 0
+	BLOCK = 6.5 1.0
+	SIZE = 100 1
+END_WALLSET
+
+#------------------------------------------------------------------------------
+# モデル配置情報 COL=0球   COL=1四角
+#------------------------------------------------------------------------------
+#------------------
+#	ブロック
+#------------------
+MODELSET
+	TYPE = 0
+	POS = 100 -50 150
+	ROT = 0 0 0
+	COL = 1
+END_MODELSET
+
+MODELSET
+	TYPE = 0
+	POS = -100 -50 300
+	ROT = 0 0 0
+	COL = 1
+END_MODELSET
+
+MODELSET
+	TYPE = 0
+	POS = 100 -50 450
+	ROT = 0 0 0
+	COL = 1
+END_MODELSET
+
+MODELSET
+	TYPE = 0
+	POS = -100 -50 600
+	ROT = 0 0 0
+	COL = 1
+END_MODELSET
+
+#------------------
+# ジャンプパッド
+#------------------
+MODELSET
+	TYPE = 4
+	POS = -0 -200 800
+	ROT = 0 0 0
+	COL = 1
+	JUMP = 1
+END_MODELSET
+
+/MODELSET
+	TYPE = 4
+	POS = -0 -200 900
+	ROT = 0 0 0
+	COL = 1
+	JUMP = 1
+/END_MODELSET
+
+MODELSET
+	TYPE = 4
+	POS = -0 -200 1050
+	ROT = 0 0 0
+	COL = 1
+	JUMP = 1
+END_MODELSET
+
+MODELSET
+	TYPE = 4
+	POS = -0 0 4500
+	ROT = 0 0 0
+	COL = 1
+	JUMP = 1
+END_MODELSET
+
+MODELSET
+	TYPE = 4
+	POS = -0 200 4800
+	ROT = 0 0 0
+	COL = 1
+	JUMP = 1
+END_MODELSET
+
+MODELSET
+	TYPE = 4
+	POS = -0 400 5100
+	ROT = 0 0 0
+	COL = 1
+	JUMP = 1
+END_MODELSET
+
+#------------------
+#	鉄球
+#------------------
+MODELSET
+	TYPE = 1
+	POS = -500 0 1850
+	ROT = 0 0 0
+	MOVE = 3.0 0.0 0.0
+	MOVETIME = 400
+	COL = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 1
+	POS = 600 0 2150
+	ROT = 0 0 0
+	MOVE = -3.0 0.0 0.0
+	MOVETIME = 400
+	COL = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 1
+	POS = -600 0 2450
+	ROT = 0 0 0
+	MOVE = 5.0 0.0 0.0
+	MOVETIME = 300
+	COL = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 1
+	POS = 700 0 2750
+	ROT = 0 0 0
+	MOVE = -5.0 0.0 0.0
+	MOVETIME = 300
+	COL = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 1
+	POS = -400 300 4650
+	ROT = 0 0 0
+	MOVE = 3.0 0.0 0.0
+	MOVETIME = 300
+	COL = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 1
+	POS = 600 500 4950
+	ROT = 0 0 0
+	MOVE = -5.0 0.0 0.0
+	MOVETIME = 250
+	COL = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 1
+	POS = 750 700 5250
+	ROT = 0 0 0
+	MOVE = -10.0 0.0 0.0
+	MOVETIME = 150
+	COL = 0
+END_MODELSET
+
+#------------------
+#	丸太
+#------------------
+MODELSET
+	TYPE = 2
+	POS = 0 300 4100
+	ROT = 0 0 0
+	COL = 1
+	MOVE = 0.0 0.0 -3.0
+	MOVETIME = 300
+	DROP = 1
+END_MODELSET
+
+#------------------
+#	ジップ
+#------------------
+MODELSET
+	TYPE = 3
+	POS = 0 0 1600
+	ROT = 0 0 0
+	COL = 1
+	ZIP = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 3
+	POS = 0 0 2900
+	ROT = 0 0 0
+	COL = 1
+	ZIP = 1
+END_MODELSET
+
+#------------------
+# チェックポイント
+#------------------
+MODELSET
+	TYPE = 5
+	POS = 0 0 1500
+	ROT = 0 0 0
+	COL = 1
+	CHECK = 1
+END_MODELSET
+
+MODELSET
+	TYPE = 5
+	POS = 0 0 3000
+	ROT = 0 0 0
+	COL = 1
+	CHECK = 1
+END_MODELSET
+
+#------------------
+# ゴール
+#------------------
+GOALSET
+	POS = 0 601 5600
+	SIZE = 50 0 50
+END_GOALSET
+
+#------------------
+# ゲート横
+#------------------
+MODELSET
+	TYPE = 6
+	POS = 0 200 1500
+	ROT = 0 0 0
+	COL = 1
+END_MODELSET
+
+MODELSET
+	TYPE = 6
+	POS = 0 200 3000
+	ROT = 0 0 0
+	COL = 1
+END_MODELSET
+
+MODELSET
+	TYPE = 6
+	POS = 0 800 5600
+	ROT = 0 0 0
+	COL = 1
+END_MODELSET
+
+#------------------
+# ゲート縦
+#------------------
+MODELSET
+	TYPE = 7
+	POS = 250 0 1500
+	ROT = 0 0 0
+	COL = 1
+END_MODELSET
+
+MODELSET
+	TYPE = 7
+	POS = -250 0 1500
+	ROT = 0 0 0
+	COL = 1
+END_MODELSET
+
+MODELSET
+	TYPE = 7
+	POS = 250 0 3000
+	ROT = 0 0 0
+	COL = 1
+END_MODELSET
+
+MODELSET
+	TYPE = 7
+	POS = -250 0 3000
+	ROT = 0 0 0
+	COL = 1
+END_MODELSET
+
+MODELSET
+	TYPE = 7
+	POS = 250 600 5600
+	ROT = 0 0 0
+	COL = 1
+END_MODELSET
+
+MODELSET
+	TYPE = 7
+	POS = -250 600 5600
+	ROT = 0 0 0
+	COL = 1
+END_MODELSET
+
+#------------------
+# カメラパネル
+#------------------
+CAMERAPANELSET
+	POS = 0 0 -100
+	SIZE = 0 0 0
+	POSV = 0 0 0		//カメラの視点
+	POSR = 0 0 0		//カメラの注視点
+END_CAMERAPANELSET
+
+#------------------
+#プレイヤー
+#------------------
+PLAYERSET
+	MOTION_FILENAME = data/chara.txt
+	POS = 0 0 0
+	ROT = 0 0 0
+END_PLAYERSET
+
+END_SCRIPT		# この行は絶対消さないこと！

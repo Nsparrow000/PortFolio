@@ -1,0 +1,53 @@
+#*********************************************************
+#テクスチャのパス読み込む(主にUIだったりの2D方面の画像)
+#*********************************************************
+
+#*********************************************************
+#最大テクスチャ数
+#*********************************************************
+NUM_TEXTURE = 30
+
+#*********************************************************
+# テクスチャファイル名
+#*********************************************************
+TEXTURE_FILENAME = data/Texture/2D/Yourscore.png		//０リザルトのやつ
+TEXTURE_FILENAME = data/Texture/2D/UIback.png			//１黒フェード
+TEXTURE_FILENAME = data/Texture/2D/number.png			//２番号
+TEXTURE_FILENAME = data/Texture/2D/1st.png				//３ランキング番号1
+TEXTURE_FILENAME = data/Texture/2D/2nd.png				//４ランキング番号2
+TEXTURE_FILENAME = data/Texture/2D/3rd.png				//５ランキング番号3
+TEXTURE_FILENAME = data/Texture/2D/4th.png				//６ランキング番号4
+TEXTURE_FILENAME = data/Texture/2D/5th.png				//７ランキング番号5
+TEXTURE_FILENAME = data/Texture/2D/Effect000.jpg		//８エフェクト
+TEXTURE_FILENAME = data/Texture/2D/title_logo.png		//９タイトルロゴ
+TEXTURE_FILENAME = data/Texture/2D/title_start.png		//１０スタート
+TEXTURE_FILENAME = data/Texture/2D/title_tutorial.png	//１１チュートリアル
+TEXTURE_FILENAME = data/Texture/2D/title_ranking.png	//１２ランキング
+TEXTURE_FILENAME = data/Texture/2D/title_bg.png			//１３タイトル背景
+TEXTURE_FILENAME = data/Texture/2D/gameover_bg.png		//１４ゲームオーバー背景
+TEXTURE_FILENAME = data/Texture/2D/ranking_bg.png		//１５ランキング背景
+TEXTURE_FILENAME = data/Texture/2D/human.png			//１６苦しい人
+TEXTURE_FILENAME = data/Texture/2D/gameover_logo.png	//１７ゲームオーバーロゴ
+TEXTURE_FILENAME = data/Texture/2D/gameover_quit.png	//１８ゲームオーバー選択UIQuit
+TEXTURE_FILENAME = data/Texture/2D/gameover_retry.png	//１９ゲームオーバー選択UIRetry
+TEXTURE_FILENAME = data/Texture/2D/clock-2.png			//２０UI時計
+TEXTURE_FILENAME = data/Texture/2D/heart.png			//２１UIハート
+TEXTURE_FILENAME = data/Texture/2D/1.png				//２２カウントダウン１
+TEXTURE_FILENAME = data/Texture/2D/2.png				//２３カウントダウン２
+TEXTURE_FILENAME = data/Texture/2D/3.png				//２４カウントダウン３
+TEXTURE_FILENAME = data/Texture/2D/go.png				//２５GO（スタート時に出すもの）
+TEXTURE_FILENAME = data/Texture/2D/clear.png			//２６クリア時に出すもの
+TEXTURE_FILENAME = data/Texture/2D/CycleEffect00.png	//２７輪っかエフェクト
+TEXTURE_FILENAME = data/Texture/2D/Yourscore.png		//２８リザルトUI
+TEXTURE_FILENAME = data/Texture/2D/Ranking01.png		//２９リザルトUI
+TEXTURE_FILENAME = data/Texture/2D/Retry.png			//３０ゲーム選択UI１
+TEXTURE_FILENAME = data/Texture/2D/Resume.png			//３１ゲーム選択UI２
+TEXTURE_FILENAME = data/Texture/2D/Quit.png				//３２ゲーム選択UI３
+TEXTURE_FILENAME = data/Texture/2D/Pause.png			//３３ゲームUI
+TEXTURE_FILENAME = data/Texture/2D/triangle.png			//３４ゲームUI
+TEXTURE_FILENAME = data/Texture/2D/control_gamepad.png			//３５ゲームパッド操作
+TEXTURE_FILENAME = data/Texture/2D/control_zip_gamepad.png		//３６ゲームパッド操作ジップライン
+TEXTURE_FILENAME = data/Texture/2D/control_keyboard.png			//３７キーボード操作
+TEXTURE_FILENAME = data/Texture/2D/control_zip_keyboard.png		//３８キーボード操作ジップライン
+
+END_SCRIPT

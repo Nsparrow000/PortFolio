@@ -1,0 +1,5 @@
+﻿  main.cpp
+c:\users\student\desktop\保険\11_10\3dpolygon\main.cpp(32): warning C4100: 'lpCmdLine': 引数は関数の本体部で 1 度も参照されません。
+c:\users\student\desktop\保険\11_10\3dpolygon\main.cpp(32): warning C4100: 'hPrevInstance': 引数は関数の本体部で 1 度も参照されません。
+  3DPolygon.vcxproj -> C:\Users\student\Desktop\保険\11_10\3DPolygon\Debug\3DPolygon.exe
+  3DPolygon.vcxproj -> C:\Users\student\Desktop\保険\11_10\3DPolygon\Debug\3DPolygon.pdb (Full PDB)

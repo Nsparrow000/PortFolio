@@ -1,0 +1,337 @@
+#*********************************************************
+#ボタンの配置(2D)
+#*********************************************************
+
+#*********************************************************
+//パターン番号
+BUTTENSET
+	POS = 167.0 129.0 0.0	//座標
+	SIZE = 18.0 18.0	//サイズ
+	TEXTURE = -1		//テクスチャ
+	OPERATION = 0		//設定内容
+	INDENUM = -1	//増減する数値
+	DISPLAY = 0	//表示
+	PATTERN = 0
+END_BUTTENSET
+
+BUTTENSET
+	POS = 200.0 129.0 0.0	//座標
+	SIZE = 18.0 18.0	//サイズ
+	TEXTURE = -1		//テクスチャ
+	OPERATION = 0		//設定内容
+	INDENUM = 1	//増減する数値
+	DISPLAY = 0	//表示
+	PATTERN = 0
+END_BUTTENSET
+#*********************************************************
+#*********************************************************
+//選択色
+BUTTENSET
+	POS = 104.0 39.0 0.0	//座標
+	SIZE = 18.0 18.0	//サイズ
+	TEXTURE = -1		//テクスチャ
+	OPERATION = 1		//設定内容
+	INDENUM = -1	//増減する数値
+	DISPLAY = 0	//表示
+	PATTERN = 0
+END_BUTTENSET
+
+BUTTENSET
+	POS = 136.0 39.0 0.0	//座標
+	SIZE = 18.0 18.0	//サイズ
+	TEXTURE = -1		//テクスチャ
+	OPERATION = 1		//設定内容
+	INDENUM = 1	//増減する数値
+	DISPLAY = 0	//表示
+	PATTERN = 0
+END_BUTTENSET
+#*********************************************************
+#*********************************************************
+//色
+BUTTENSET
+	POS = 84.0 57.0 0.0	//座標
+	SIZE = 18.0 18.0	//サイズ
+	TEXTURE = -1		//テクスチャ
+	OPERATION = 2		//設定内容
+	INDENUM = 5	//増減する数値
+	DISPLAY = 0	//表示
+	PATTERN = 0
+END_BUTTENSET
+
+BUTTENSET
+	POS = 110.0 57.0 0.0	//座標
+	SIZE = 18.0 18.0	//サイズ
+	TEXTURE = -1		//テクスチャ
+	OPERATION = 2		//設定内容
+	INDENUM = -5	//増減する数値
+	DISPLAY = 0	//表示
+	PATTERN = 0
+END_BUTTENSET
+#*********************************************************
+#*********************************************************
+//加算色
+BUTTENSET
+	POS = 117.0 74.0 0.0	//座標
+	SIZE = 18.0 18.0	//サイズ
+	TEXTURE = -1		//テクスチャ
+	OPERATION = 3		//設定内容
+	INDENUM = 1	//増減する数値
+	DISPLAY = 0	//表示
+	PATTERN = 0
+END_BUTTENSET
+
+BUTTENSET
+	POS = 141.0 74.0 0.0	//座標
+	SIZE = 18.0 18.0	//サイズ
+	TEXTURE = -1		//テクスチャ
+	OPERATION = 3		//設定内容
+	INDENUM = -1	//増減する数値
+	DISPLAY = 0	//表示
+	PATTERN = 0
+END_BUTTENSET
+#*********************************************************
+#*********************************************************
+//寿命
+BUTTENSET
+	POS = 52.0 92.0 0.0	//座標
+	SIZE = 18.0 18.0	//サイズ
+	TEXTURE = -1		//テクスチャ
+	OPERATION = 10		//設定内容
+	INDENUM = 2	//増減する数値
+	DISPLAY = 0	//表示
+	PATTERN = 0
+END_BUTTENSET
+
+BUTTENSET
+	POS = 77.0 92.0 0.0	//座標
+	SIZE = 18.0 18.0	//サイズ
+	TEXTURE = -1		//テクスチャ
+	OPERATION = 10		//設定内容
+	INDENUM = -2	//増減する数値
+	DISPLAY = 0	//表示
+	PATTERN = 0
+END_BUTTENSET
+#*********************************************************
+#*********************************************************
+//サイズ
+BUTTENSET
+	POS = 69.0 164.0 0.0	//座標
+	SIZE = 18.0 18.0	//サイズ
+	TEXTURE = -1		//テクスチャ
+	OPERATION = 4		//設定内容
+	INDENUM = 1	//増減する数値
+	DISPLAY = 0	//表示
+	PATTERN = 0
+END_BUTTENSET
+
+BUTTENSET
+	POS = 92.0 164.0 0.0	//座標
+	SIZE = 18.0 18.0	//サイズ
+	TEXTURE = -1		//テクスチャ
+	OPERATION = 4		//設定内容
+	INDENUM = -1	//増減する数値
+	DISPLAY = 0	//表示
+	PATTERN = 0
+END_BUTTENSET
+#*********************************************************
+#*********************************************************
+//サイズ増減
+BUTTENSET
+	POS = 100.0 183.0 0.0	//座標
+	SIZE = 18.0 18.0	//サイズ
+	TEXTURE = -1		//テクスチャ
+	OPERATION = 5		//設定内容
+	INDENUM = 0.2	//増減する数値
+	DISPLAY = 0	//表示
+	PATTERN = 0
+END_BUTTENSET
+
+BUTTENSET
+	POS = 124.0 183.0 0.0	//座標
+	SIZE = 18.0 18.0	//サイズ
+	TEXTURE = -1		//テクスチャ
+	OPERATION = 5		//設定内容
+	INDENUM = -0.2	//増減する数値
+	DISPLAY = 0	//表示
+	PATTERN = 0
+END_BUTTENSET
+#*********************************************************
+#*********************************************************
+//密度
+BUTTENSET
+	POS = 52.0 218.0 0.0	//座標
+	SIZE = 18.0 18.0	//サイズ
+	TEXTURE = -1		//テクスチャ
+	OPERATION = 11		//設定内容
+	INDENUM = 1	//増減する数値
+	DISPLAY = 0	//表示
+	PATTERN = 0
+END_BUTTENSET
+
+BUTTENSET
+	POS = 76.0 218.0 0.0	//座標
+	SIZE = 18.0 18.0	//サイズ
+	TEXTURE = -1		//テクスチャ
+	OPERATION = 11		//設定内容
+	INDENUM = -1	//増減する数値
+	DISPLAY = 0	//表示
+	PATTERN = 0
+END_BUTTENSET
+#*********************************************************
+#*********************************************************
+//テクスチャ
+BUTTENSET
+	POS = 104.0 237.0 0.0	//座標
+	SIZE = 18.0 18.0	//サイズ
+	TEXTURE = -1		//テクスチャ
+	OPERATION = 13		//設定内容
+	INDENUM = -1	//増減する数値
+	DISPLAY = 0	//表示
+	PATTERN = 0
+END_BUTTENSET
+
+BUTTENSET
+	POS = 137.0 237.0 0.0	//座標
+	SIZE = 18.0 18.0	//サイズ
+	TEXTURE = -1		//テクスチャ
+	OPERATION = 13		//設定内容
+	INDENUM = 1	//増減する数値
+	DISPLAY = 0	//表示
+	PATTERN = 0
+END_BUTTENSET
+#*********************************************************
+#*********************************************************
+//セーブ
+BUTTENSET
+	POS = 120.0 326.0 0.0	//座標
+	SIZE = 18.0 18.0	//サイズ
+	TEXTURE = -1		//テクスチャ
+	OPERATION = 15		//設定内容
+	INDENUM = 0	//増減する数値
+	DISPLAY = 0	//表示
+	PATTERN = 0
+END_BUTTENSET
+#*********************************************************
+#*********************************************************
+//中間ロード
+BUTTENSET
+	POS = 169.0 345.0 0.0	//座標
+	SIZE = 18.0 18.0	//サイズ
+	TEXTURE = -1		//テクスチャ
+	OPERATION = 16		//設定内容
+	INDENUM = 0	//増減する数値
+	DISPLAY = 0	//表示
+	PATTERN = 0
+END_BUTTENSET
+#*********************************************************
+#*********************************************************
+//移動X
+BUTTENSET
+	POS = 77.0 416.0 0.0	//座標
+	SIZE = 18.0 18.0	//サイズ
+	TEXTURE = -1		//テクスチャ
+	OPERATION = 6		//設定内容
+	INDENUM = 5	//増減する数値
+	DISPLAY = 1	//表示
+	PATTERN = 1
+END_BUTTENSET
+
+BUTTENSET
+	POS = 100.0 416.0 0.0	//座標
+	SIZE = 18.0 18.0	//サイズ
+	TEXTURE = -1		//テクスチャ
+	OPERATION = 6		//設定内容
+	INDENUM = -5	//増減する数値
+	DISPLAY = 1	//表示
+	PATTERN = 1
+END_BUTTENSET
+#*********************************************************
+#*********************************************************
+//移動Y
+BUTTENSET
+	POS = 77.0 434.0 0.0	//座標
+	SIZE = 18.0 18.0	//サイズ
+	TEXTURE = -1		//テクスチャ
+	OPERATION = 7		//設定内容
+	INDENUM = 5	//増減する数値
+	DISPLAY = 1	//表示
+	PATTERN = 1
+END_BUTTENSET
+
+BUTTENSET
+	POS = 100.0 434.0 0.0	//座標
+	SIZE = 18.0 18.0	//サイズ
+	TEXTURE = -1		//テクスチャ
+	OPERATION = 7		//設定内容
+	INDENUM = -5	//増減する数値
+	DISPLAY = 1	//表示
+	PATTERN = 1
+END_BUTTENSET
+#*********************************************************
+#*********************************************************
+//移動加算X
+BUTTENSET
+	POS = 110.0 451.0 0.0	//座標
+	SIZE = 18.0 18.0	//サイズ
+	TEXTURE = -1		//テクスチャ
+	OPERATION = 8		//設定内容
+	INDENUM = 0.2	//増減する数値
+	DISPLAY = 1	//表示
+	PATTERN = 1
+END_BUTTENSET
+
+BUTTENSET
+	POS = 134.0 451.0 0.0	//座標
+	SIZE = 18.0 18.0	//サイズ
+	TEXTURE = -1		//テクスチャ
+	OPERATION = 8		//設定内容
+	INDENUM = -0.2	//増減する数値
+	DISPLAY = 1	//表示
+	PATTERN = 1
+END_BUTTENSET
+#*********************************************************
+#*********************************************************
+//移動加算Y
+BUTTENSET
+	POS = 110.0 471.0 0.0	//座標
+	SIZE = 18.0 18.0	//サイズ
+	TEXTURE = -1		//テクスチャ
+	OPERATION = 9		//設定内容
+	INDENUM = 0.2	//増減する数値
+	DISPLAY = 1	//表示
+	PATTERN = 1
+END_BUTTENSET
+
+BUTTENSET
+	POS = 134.0 471.0 0.0	//座標
+	SIZE = 18.0 18.0	//サイズ
+	TEXTURE = -1		//テクスチャ
+	OPERATION = 9		//設定内容
+	INDENUM = -0.2	//増減する数値
+	DISPLAY = 1	//表示
+	PATTERN = 1
+END_BUTTENSET
+#*********************************************************
+#*********************************************************
+//合成
+BUTTENSET
+	POS = 56.0 561.0 0.0	//座標
+	SIZE = 18.0 18.0	//サイズ
+	TEXTURE = -1		//テクスチャ
+	OPERATION = 26		//設定内容
+	INDENUM = -1	//増減する数値
+	DISPLAY = 1	//表示
+	PATTERN = 1
+END_BUTTENSET
+
+BUTTENSET
+	POS = 88.0 561.0 0.0	//座標
+	SIZE = 18.0 18.0	//サイズ
+	TEXTURE = -1		//テクスチャ
+	OPERATION = 26		//設定内容
+	INDENUM = 1	//増減する数値
+	DISPLAY = 1	//表示
+	PATTERN = 1
+END_BUTTENSET
+#*********************************************************
+END_SCRIPT

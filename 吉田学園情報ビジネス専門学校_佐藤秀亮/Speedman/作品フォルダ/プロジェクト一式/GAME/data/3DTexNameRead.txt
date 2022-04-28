@@ -1,0 +1,21 @@
+#*********************************************************
+#テクスチャのパス読み込む(主に壁や床、ビルボード画像)
+#*********************************************************
+
+#*********************************************************
+#最大テクスチャ数
+#*********************************************************
+NUM_TEXTURE = 6
+
+#*********************************************************
+# テクスチャファイル名
+#*********************************************************
+TEXTURE_FILENAME = data/Texture/3D/zip.png					//０ジップ
+TEXTURE_FILENAME = data/Texture/3D/wall100.jpg			//１壁
+TEXTURE_FILENAME = data/Texture/3D/field000.jpg		//２フィールド
+TEXTURE_FILENAME = data/Texture/3D/Effect000.jpg			//３エフェクト
+TEXTURE_FILENAME = data/Texture/3D/particle.png			//４光
+TEXTURE_FILENAME = data/Texture/3D/CycleEffect00.png		//５わっか
+TEXTURE_FILENAME = data/Texture/3D/sky001.jpg		//6 空
+
+END_SCRIPT
