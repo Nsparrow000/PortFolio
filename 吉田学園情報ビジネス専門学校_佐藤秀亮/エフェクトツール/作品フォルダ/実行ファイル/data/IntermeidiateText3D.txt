@@ -15,9 +15,13 @@ EFFECTSTATE3D
 	TRAJECTCUR = 0				//発生モデル２
 	COLOR = 255 255 255 255			//カラー
 	CHANGECOLOR = 0 0 0 0			//カラー変動値
-	LIFE = 100						//ライフ
 	TEXTURE = 1						//テクスチャ
 	SYNTHETIC = 0						//合成
+	TEXMOVE = 0.000 0.000					//テクスチャ移動
+	TEXNUM = 1.0					//テクスチャ枚数
+	TEXMOVE = 0.000 0.000					//テクスチャ移動
+	TEXANIMCOUNT = -1					//テクスチャアニメーションカウント
+	TEXSPLIT = 1 1					//テクスチャ分割数
 END_EFFECTSTATE3D
 END_SCRIPT
 

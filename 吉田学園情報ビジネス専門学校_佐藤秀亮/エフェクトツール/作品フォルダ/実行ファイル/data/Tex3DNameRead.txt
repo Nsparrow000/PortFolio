@@ -10,14 +10,20 @@ NUM_TEXTURE = 3
 #*********************************************************
 # ÉeÉNÉXÉ`ÉÉÉtÉ@ÉCÉãñº
 #*********************************************************
-TEXTURE_FILENAME = data/Texture/3D/field000.jpg				//ÇOínñ 
-TEXTURE_FILENAME = data/Texture/3D/Effect000.jpg			//ÇPÉGÉtÉFÉNÉg
-TEXTURE_FILENAME = data/Texture/3D/trans.png				//ÇQãOê’
-TEXTURE_FILENAME = data/Texture/3D/jagged001.png			//ÇRÉMÉUó÷
-TEXTURE_FILENAME = data/Texture/3D/CycleEffect00.png		//ÇSó÷
-TEXTURE_FILENAME = data/Texture/3D/Effect001.jpg			//ÇTÇ–Çµå`
-TEXTURE_FILENAME = data/Texture/3D/trans001.png				//ÇUãOê’ÇQ
-TEXTURE_FILENAME = data/Texture/3D/Effect003.png			//ÇVÉGÉtÉFÉNÉgÇR
-TEXTURE_FILENAME = data/Texture/3D/trans002.png				//ÇWãOê’ÇR
+TEXTURE_FILENAME = data/TEXTURE/3DEffect/field000.jpg				//ÇOínñ 
+TEXTURE_FILENAME = data/TEXTURE/3DEffect/Effect000.jpg			//ÇPÉGÉtÉFÉNÉg
+TEXTURE_FILENAME = data/TEXTURE/3DEffect/trans.png				//ÇQãOê’
+TEXTURE_FILENAME = data/TEXTURE/3DEffect/jagged001.png			//ÇRÉMÉUó÷
+TEXTURE_FILENAME = data/TEXTURE/3DEffect/CycleEffect00.png		//ÇSó÷
+TEXTURE_FILENAME = data/TEXTURE/3DEffect/Effect001.jpg			//ÇTÇ–Çµå`
+TEXTURE_FILENAME = data/TEXTURE/3DEffect/trans001.png				//ÇUãOê’ÇQ
+TEXTURE_FILENAME = data/TEXTURE/3DEffect/Effect003.png			//ÇVÉGÉtÉFÉNÉgÇR
+TEXTURE_FILENAME = data/TEXTURE/3DEffect/trans002.png				//ÇWãOê’ÇR
+TEXTURE_FILENAME = data/TEXTURE/3DEffect/Explosion.png				//ÇXîöî≠
+TEXTURE_FILENAME = data/TEXTURE/3DEffect/Smoke0.png			//ÇPÇOâå
+TEXTURE_FILENAME = data/TEXTURE/3DEffect/Smoke1.png			//ÇPÇPâåÇQ
+TEXTURE_FILENAME = data/TEXTURE/3DEffect/Thunder.png			//ÇPÇQÉTÉìÉ_Å[
+TEXTURE_FILENAME = data/TEXTURE/3DEffect/Thunder2.png			//ÇPÇRÉTÉìÉ_Å[
+TEXTURE_FILENAME = data/TEXTURE/3DEffect/Target0.png			//ÇPÇSÉ^Å[ÉQÉbÉg
 
 END_SCRIPT
