@@ -25,5 +25,10 @@ TEXTURE_FILENAME = data/TEXTURE/3DEffect/Smoke1.png			//１１煙２
 TEXTURE_FILENAME = data/TEXTURE/3DEffect/Thunder.png			//１２サンダー
 TEXTURE_FILENAME = data/TEXTURE/3DEffect/Thunder2.png			//１３サンダー
 TEXTURE_FILENAME = data/TEXTURE/3DEffect/Target0.png			//１４ターゲット
+TEXTURE_FILENAME = data/TEXTURE/3DEffect/Thunder3.png			//１５斜めサンダー
+TEXTURE_FILENAME = data/TEXTURE/3DEffect/Crater.png			//１６クレーター
+TEXTURE_FILENAME = data/TEXTURE/3DEffect/ExplosionRing.png		//１７爆発リング
+TEXTURE_FILENAME = data/TEXTURE/3DEffect/Thunder4.png			//１８斜めサンダー
+TEXTURE_FILENAME = data/TEXTURE/3DEffect/Thunder5.png			//１９アニメーションサンダー
 
 END_SCRIPT

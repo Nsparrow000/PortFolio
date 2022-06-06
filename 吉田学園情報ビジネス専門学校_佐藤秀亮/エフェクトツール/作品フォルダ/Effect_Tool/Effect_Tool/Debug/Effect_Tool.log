@@ -1,9 +1,0 @@
-﻿  PresetSetEffect.cpp
-c:\users\student\desktop\プログラム\ツール\effecttool\effect_tool\effect_tool\presetseteffect.cpp(391): warning C4244: '引数': 'int' から 'float' への変換です。データが失われる可能性があります。
-c:\users\student\desktop\プログラム\ツール\effecttool\effect_tool\effect_tool\presetseteffect.cpp(502): warning C4244: '引数': 'int' から 'float' への変換です。データが失われる可能性があります。
-c:\users\student\desktop\プログラム\ツール\effecttool\effect_tool\effect_tool\presetseteffect.cpp(502): warning C4244: '引数': 'double' から 'float' への変換です。データが失われる可能性があります。
-c:\users\student\desktop\プログラム\ツール\effecttool\effect_tool\effect_tool\presetseteffect.cpp(531): warning C4244: '引数': 'int' から 'float' への変換です。データが失われる可能性があります。
-c:\users\student\desktop\プログラム\ツール\effecttool\effect_tool\effect_tool\presetseteffect.cpp(563): warning C4189: 'n': ローカル変数が初期化されましたが、参照されていません
-c:\users\student\desktop\プログラム\ツール\effecttool\effect_tool\effect_tool\presetseteffect.cpp(685): warning C4100: 'nPattern': 引数は関数の本体部で 1 度も参照されません。
-  Effect_Tool.vcxproj -> C:\Users\student\Desktop\プログラム\ツール\EffectTool\Effect_Tool\Debug\Effect_Tool.exe
-  Effect_Tool.vcxproj -> C:\Users\student\Desktop\プログラム\ツール\EffectTool\Effect_Tool\Debug\Effect_Tool.pdb (Full PDB)
