@@ -1,0 +1,5 @@
+SET_TEXT
+	TEXT = Å‘å‘Ì—Í‚Ì”¼•ª‚Ì—Ê‚ð—]•ª‚É‰ñ•œ‚·‚é
+END_SETTEXT
+
+END

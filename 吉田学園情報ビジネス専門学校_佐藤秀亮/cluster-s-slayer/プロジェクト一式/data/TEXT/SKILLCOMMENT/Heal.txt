@@ -1,0 +1,21 @@
+SET_TEXT
+	TEXT = 一定時間ごとに少しずつ体力を回復させる
+END_SETTEXT
+[レベル２]
+SET_TEXT
+	TEXT = 回復量が上がる
+END_SETTEXT
+[レベル３]
+SET_TEXT
+	TEXT = 回復量が上がる
+END_SETTEXT
+[レベル４]
+SET_TEXT
+	TEXT = 回復量が上がる
+END_SETTEXT
+[レベルMAX]
+SET_TEXT
+	TEXT = 回復量が上がる
+END_SETTEXT
+
+END

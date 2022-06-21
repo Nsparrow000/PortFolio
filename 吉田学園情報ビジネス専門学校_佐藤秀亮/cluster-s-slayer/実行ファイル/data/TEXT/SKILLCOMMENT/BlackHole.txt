@@ -1,0 +1,21 @@
+SET_TEXT
+	TEXT = 一定時間、敵を一か所に引き寄せるエリアを展開する
+END_SETTEXT
+[レベル２]
+SET_TEXT
+	TEXT = 引き寄せる範囲をが少し広がる
+END_SETTEXT
+[レベル３]
+SET_TEXT
+	TEXT = 引き寄せる範囲をが少し広がる
+END_SETTEXT
+[レベル４]
+SET_TEXT
+	TEXT = 引き寄せる範囲をが少し広がる
+END_SETTEXT
+[レベルMAX]
+SET_TEXT
+	TEXT = 引き寄せる範囲をが少し広がる
+END_SETTEXT
+
+END

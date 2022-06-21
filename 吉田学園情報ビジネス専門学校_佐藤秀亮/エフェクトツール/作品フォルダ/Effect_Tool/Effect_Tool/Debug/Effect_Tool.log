@@ -1,0 +1,6 @@
+﻿  player.cpp
+c:\users\student\desktop\git\syukatu\吉田学園情報ビジネス専門学校_佐藤秀亮\エフェクトツール\作品フォルダ\effect_tool\effect_tool\player.cpp(27): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+c:\users\student\desktop\git\syukatu\吉田学園情報ビジネス専門学校_佐藤秀亮\エフェクトツール\作品フォルダ\effect_tool\effect_tool\player.cpp(30): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+c:\users\student\desktop\git\syukatu\吉田学園情報ビジネス専門学校_佐藤秀亮\エフェクトツール\作品フォルダ\effect_tool\effect_tool\player.cpp(500): warning C4244: '引数': 'const float' から 'int' への変換です。データが失われる可能性があります。
+  Effect_Tool.vcxproj -> C:\Users\student\Desktop\git\Syukatu\吉田学園情報ビジネス専門学校_佐藤秀亮\エフェクトツール\作品フォルダ\Effect_Tool\Debug\Effect_Tool.exe
+  Effect_Tool.vcxproj -> C:\Users\student\Desktop\git\Syukatu\吉田学園情報ビジネス専門学校_佐藤秀亮\エフェクトツール\作品フォルダ\Effect_Tool\Debug\Effect_Tool.pdb (Full PDB)

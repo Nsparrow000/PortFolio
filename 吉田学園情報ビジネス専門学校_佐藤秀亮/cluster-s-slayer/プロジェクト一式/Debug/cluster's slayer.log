@@ -1,0 +1,156 @@
+﻿  titleselectbutton.cpp
+  gamemenu.cpp
+c:\users\student\desktop\git\cluster-s-slayer\cluster's slayer\gamemenu.cpp(173): warning C4244: '引数': 'LONG' から 'FLOAT' への変換です。データが失われる可能性があります。
+  title.cpp
+c:\users\student\desktop\git\cluster-s-slayer\cluster's slayer\title.cpp(328): warning C4244: '引数': 'LONG' から 'FLOAT' への変換です。データが失われる可能性があります。
+  texture.cpp
+  sword.cpp
+  stage_preset_data.cpp
+  stage_preset.cpp
+c:\users\student\desktop\git\cluster-s-slayer\cluster's slayer\stage_preset.cpp(80): warning C4244: '引数': 'FLOAT' から 'int' への変換です。データが失われる可能性があります。
+c:\users\student\desktop\git\cluster-s-slayer\cluster's slayer\stage_preset.cpp(89): warning C4244: '引数': 'FLOAT' から 'int' への変換です。データが失われる可能性があります。
+  sound.cpp
+  smallscore.cpp
+  skillselect.cpp
+c:\users\student\desktop\git\cluster-s-slayer\cluster's slayer\skillselect.cpp(107): warning C4244: '引数': 'LONG' から 'FLOAT' への変換です。データが失われる可能性があります。
+  shadow.cpp
+  selectbottom.cpp
+c:\users\student\desktop\git\cluster-s-slayer\cluster's slayer\selectbottom.cpp(129): warning C4018: '<=': signed と unsigned の数値を比較しようとしました。
+  score.cpp
+  scene.cpp
+  rushattack.cpp
+c:\users\student\desktop\git\cluster-s-slayer\cluster's slayer\rushattack.cpp(158): warning C4244: '初期化中': 'double' から 'float' への変換です。データが失われる可能性があります。
+  result.cpp
+c:\users\student\desktop\git\cluster-s-slayer\cluster's slayer\result.cpp(63): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+  player.cpp
+c:\users\student\desktop\git\cluster-s-slayer\cluster's slayer\player.cpp(902): warning C4244: '引数': 'int' から 'float' への変換です。データが失われる可能性があります。
+c:\users\student\desktop\git\cluster-s-slayer\cluster's slayer\player.cpp(906): warning C4244: '引数': 'int' から 'float' への変換です。データが失われる可能性があります。
+c:\users\student\desktop\git\cluster-s-slayer\cluster's slayer\player.cpp(1085): warning C4244: '初期化中': 'LONG' から 'float' への変換です。データが失われる可能性があります。
+c:\users\student\desktop\git\cluster-s-slayer\cluster's slayer\player.cpp(1086): warning C4244: '初期化中': 'LONG' から 'float' への変換です。データが失われる可能性があります。
+  motion.cpp
+c:\users\student\desktop\git\cluster-s-slayer\cluster's slayer\motion.cpp(827): warning C4477: 'fscanf' : 書式文字列 '%d' には、型 'int *' の引数が必要ですが、可変個引数 1 は型 'bool *' です
+  model_spawner.cpp
+  manager.cpp
+  コードを生成中...
+  コンパイル中...
+  game.cpp
+  enemy_spawn_manager.cpp
+c:\users\student\desktop\git\cluster-s-slayer\cluster's slayer\enemy_spawn_manager.cpp(65): warning C4244: '初期化中': 'double' から 'float' への変換です。データが失われる可能性があります。
+c:\users\student\desktop\git\cluster-s-slayer\cluster's slayer\enemy_spawn_manager.cpp(66): warning C4244: '初期化中': 'double' から 'float' への変換です。データが失われる可能性があります。
+  enemy001.cpp
+c:\users\student\desktop\git\cluster-s-slayer\cluster's slayer\enemy001.cpp(101): warning C4244: '初期化中': 'double' から 'int' への変換です。データが失われる可能性があります。
+c:\users\student\desktop\git\cluster-s-slayer\cluster's slayer\enemy001.cpp(102): warning C4244: '初期化中': 'double' から 'int' への変換です。データが失われる可能性があります。
+c:\users\student\desktop\git\cluster-s-slayer\cluster's slayer\enemy001.cpp(222): warning C4244: '初期化中': 'double' から 'float' への変換です。データが失われる可能性があります。
+c:\users\student\desktop\git\cluster-s-slayer\cluster's slayer\enemy001.cpp(319): warning C4244: '=': 'int' から 'float' への変換です。データが失われる可能性があります。
+  enemy.cpp
+c:\users\student\desktop\git\cluster-s-slayer\cluster's slayer\enemy.cpp(336): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+c:\users\student\desktop\git\cluster-s-slayer\cluster's slayer\enemy.cpp(337): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+c:\users\student\desktop\git\cluster-s-slayer\cluster's slayer\enemy.cpp(407): warning C4244: '=': 'int' から 'float' への変換です。データが失われる可能性があります。
+c:\users\student\desktop\git\cluster-s-slayer\cluster's slayer\enemy.cpp(455): warning C4244: '初期化中': 'double' から 'float' への変換です。データが失われる可能性があります。
+c:\users\student\desktop\git\cluster-s-slayer\cluster's slayer\enemy.cpp(456): warning C4244: '初期化中': 'double' から 'float' への変換です。データが失われる可能性があります。
+c:\users\student\desktop\git\cluster-s-slayer\cluster's slayer\enemy.cpp(509): warning C4305: '+=': 'double' から 'float' へ切り詰めます。
+c:\users\student\desktop\git\cluster-s-slayer\cluster's slayer\enemy.cpp(513): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+c:\users\student\desktop\git\cluster-s-slayer\cluster's slayer\enemy.cpp(514): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+  skill_leveldata.cpp
+  resultselectbotton.cpp
+  missile_bullet.cpp
+  missile.cpp
+  gametimer.cpp
+c:\users\student\desktop\git\cluster-s-slayer\cluster's slayer\gametimer.cpp(139): warning C4244: '初期化中': 'double' から 'int' への変換です。データが失われる可能性があります。
+c:\users\student\desktop\git\cluster-s-slayer\cluster's slayer\gametimer.cpp(140): warning C4244: '初期化中': 'double' から 'int' への変換です。データが失われる可能性があります。
+c:\users\student\desktop\git\cluster-s-slayer\cluster's slayer\gametimer.cpp(151): warning C4244: '初期化中': 'double' から 'int' への変換です。データが失われる可能性があります。
+c:\users\student\desktop\git\cluster-s-slayer\cluster's slayer\gametimer.cpp(152): warning C4244: '初期化中': 'double' から 'int' への変換です。データが失われる可能性があります。
+  character.cpp
+  bullet.cpp
+  blackhole.cpp
+c:\users\student\desktop\git\cluster-s-slayer\cluster's slayer\blackhole.cpp(188): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+  assistcrystal_model.cpp
+  2Dnumber.cpp
+  コードを生成中...
+  コンパイル中...
+  savedata.cpp
+  xload.cpp
+  XInput.cpp
+c:\users\student\desktop\git\cluster-s-slayer\cluster's slayer\xinput.cpp(48): warning C4800: 'int': ブール値を 'true' または 'false' に強制的に設定します (警告の処理)
+  weapon.cpp
+  wall.cpp
+  straight3d.cpp
+  stage.cpp
+c:\users\student\desktop\git\cluster-s-slayer\cluster's slayer\stage.cpp(50): warning C4244: '引数': 'double' から 'const int' への変換です。データが失われる可能性があります。
+  Scene3D.cpp
+  scene2D.cpp
+  Rotate3d.cpp
+  Renderer.cpp
+  PresetSetEffect.cpp
+c:\users\student\desktop\git\cluster-s-slayer\cluster's slayer\presetseteffect.cpp(394): warning C4244: '引数': 'int' から 'float' への変換です。データが失われる可能性があります。
+c:\users\student\desktop\git\cluster-s-slayer\cluster's slayer\presetseteffect.cpp(505): warning C4244: '引数': 'int' から 'float' への変換です。データが失われる可能性があります。
+c:\users\student\desktop\git\cluster-s-slayer\cluster's slayer\presetseteffect.cpp(505): warning C4244: '引数': 'double' から 'float' への変換です。データが失われる可能性があります。
+c:\users\student\desktop\git\cluster-s-slayer\cluster's slayer\presetseteffect.cpp(534): warning C4244: '引数': 'int' から 'float' への変換です。データが失われる可能性があります。
+  polygon.cpp
+  plane.cpp
+  pause.cpp
+c:\users\student\desktop\git\cluster-s-slayer\cluster's slayer\pause.cpp(49): warning C4305: '引数': 'double' から 'FLOAT' へ切り詰めます。
+  Particle.cpp
+c:\users\student\desktop\git\cluster-s-slayer\cluster's slayer\particle.cpp(66): warning C4244: '=': 'float' から 'int' への変換です。データが失われる可能性があります。
+c:\users\student\desktop\git\cluster-s-slayer\cluster's slayer\particle.cpp(71): warning C4244: '初期化中': 'double' から 'float' への変換です。データが失われる可能性があります。
+c:\users\student\desktop\git\cluster-s-slayer\cluster's slayer\particle.cpp(81): warning C4244: '引数': 'double' から 'FLOAT' への変換です。データが失われる可能性があります。
+c:\users\student\desktop\git\cluster-s-slayer\cluster's slayer\particle.cpp(97): warning C4244: '引数': 'double' から 'FLOAT' への変換です。データが失われる可能性があります。
+c:\users\student\desktop\git\cluster-s-slayer\cluster's slayer\particle.cpp(103): warning C4305: '引数': 'CTexture::Type' から 'bool' へ切り詰めます。
+c:\users\student\desktop\git\cluster-s-slayer\cluster's slayer\particle.cpp(134): warning C4244: '引数': 'double' から 'FLOAT' への変換です。データが失われる可能性があります。
+c:\users\student\desktop\git\cluster-s-slayer\cluster's slayer\particle.cpp(239): warning C4477: 'fscanf' : 書式文字列 '%d' には、型 'int *' の引数が必要ですが、可変個引数 1 は型 'bool *' です
+  number.cpp
+c:\users\student\desktop\git\cluster-s-slayer\cluster's slayer\number.cpp(205): warning C4244: '引数': 'double' から 'FLOAT' への変換です。データが失われる可能性があります。
+c:\users\student\desktop\git\cluster-s-slayer\cluster's slayer\number.cpp(206): warning C4244: '引数': 'double' から 'FLOAT' への変換です。データが失われる可能性があります。
+c:\users\student\desktop\git\cluster-s-slayer\cluster's slayer\number.cpp(207): warning C4244: '引数': 'double' から 'FLOAT' への変換です。データが失われる可能性があります。
+c:\users\student\desktop\git\cluster-s-slayer\cluster's slayer\number.cpp(208): warning C4244: '引数': 'double' から 'FLOAT' への変換です。データが失われる可能性があります。
+  model.cpp
+  meshsphere.cpp
+c:\users\student\desktop\git\cluster-s-slayer\cluster's slayer\meshsphere.cpp(44): warning C4244: '=': 'float' から 'int' への変換です。データが失われる可能性があります。
+c:\users\student\desktop\git\cluster-s-slayer\cluster's slayer\meshsphere.cpp(45): warning C4244: '=': 'float' から 'int' への変換です。データが失われる可能性があります。
+  map_polygon.cpp
+  コードを生成中...
+  コンパイル中...
+  main.cpp
+  LoadEffect.cpp
+c:\users\student\desktop\git\cluster-s-slayer\cluster's slayer\loadeffect.cpp(435): warning C4800: 'int': ブール値を 'true' または 'false' に強制的に設定します (警告の処理)
+c:\users\student\desktop\git\cluster-s-slayer\cluster's slayer\loadeffect.cpp(448): warning C4800: 'int': ブール値を 'true' または 'false' に強制的に設定します (警告の処理)
+c:\users\student\desktop\git\cluster-s-slayer\cluster's slayer\loadeffect.cpp(450): warning C4800: 'int': ブール値を 'true' または 'false' に強制的に設定します (警告の処理)
+  light.cpp
+  layer_structure.cpp
+  item.cpp
+c:\users\student\desktop\git\cluster-s-slayer\cluster's slayer\item.cpp(47): warning C4244: '=': 'double' から 'int' への変換です。データが失われる可能性があります。
+  gaugeber.cpp
+c:\users\student\desktop\git\cluster-s-slayer\cluster's slayer\gaugeber.cpp(35): warning C4244: '=': 'const int' から 'float' への変換です。データが失われる可能性があります。
+c:\users\student\desktop\git\cluster-s-slayer\cluster's slayer\gaugeber.cpp(36): warning C4244: '=': 'const int' から 'float' への変換です。データが失われる可能性があります。
+  gauge.cpp
+  frame.cpp
+  FieldEffect.cpp
+c:\users\student\desktop\git\cluster-s-slayer\cluster's slayer\fieldeffect.cpp(150): warning C4244: '初期化中': 'int' から 'float' への変換です。データが失われる可能性があります。
+c:\users\student\desktop\git\cluster-s-slayer\cluster's slayer\fieldeffect.cpp(289): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+  field.cpp
+  fade.cpp
+  exp_ball.cpp
+c:\users\student\desktop\git\cluster-s-slayer\cluster's slayer\exp_ball.cpp(59): warning C4244: '引数': 'int' から 'float' への変換です。データが失われる可能性があります。
+  effect.cpp
+  damage_collision.cpp
+  SphereEffect.cpp
+  Sphere.cpp
+  3Dpolygon.cpp
+  Rotate.cpp
+  Movement.cpp
+  MouseTracking.cpp
+  コードを生成中...
+  コンパイル中...
+  letter.cpp
+  guard.cpp
+  effect2d.cpp
+  collision.cpp
+  character_partsdata.cpp
+  camera.cpp
+  billeffect.cpp
+  billboard.cpp
+  bg.cpp
+  assistcrystal.cpp
+  コードを生成中...
+  cluster's slayer.vcxproj -> C:\Users\student\Desktop\git\cluster-s-slayer\cluster's slayer\Debug\cluster's slayer.exe
+  cluster's slayer.vcxproj -> C:\Users\student\Desktop\git\cluster-s-slayer\cluster's slayer\Debug\cluster's slayer.pdb (Full PDB)

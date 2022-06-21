@@ -1,0 +1,3 @@
+ClearPercent=0
+HaveMoney=0
+

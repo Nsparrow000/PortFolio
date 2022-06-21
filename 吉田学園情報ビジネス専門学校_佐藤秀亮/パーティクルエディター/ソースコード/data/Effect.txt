@@ -1,0 +1,36 @@
+#*********************************************************
+#最大テクスチャ数
+#*********************************************************
+NUM_TEXTURE = 4
+
+#*********************************************************
+# テクスチャファイル名
+#*********************************************************
+TEXTURE_FILENAME = data/Texture/Effect000.jpg
+TEXTURE_FILENAME = data/Texture/Effect000.jpg
+TEXTURE_FILENAME = data/Texture/Effect000.jpg
+TEXTURE_FILENAME = data/Texture/Effect000.jpg
+TEXTURE_FILENAME = data/Texture/Effect000.jpg
+TEXTURE_FILENAME = data/Texture/Effect000.jpg
+
+#*********************************************************
+#エフェクトステータス
+#セーブした物をここに移す
+#*********************************************************
+
+#*********************************************************
+#エフェクトステータス１(弾の軌道)
+#*********************************************************
+EFFECTTYPE1
+	EFFECTSTATE
+		DENSITY = 10
+		TYPE = 1
+		COLOR = 255 90 0 255
+		COLORMIN = 0 12 0 0
+		LIFE = 12
+		SIZE = 12.0 12.0
+		SIZEMIN = 0.6 0.6
+	EFFECTSTATE_END
+EFFECTTYPE1_END
+
+END_SCRIPT

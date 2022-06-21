@@ -1,0 +1,21 @@
+SET_TEXT
+	TEXT = 攻撃を当てると追加で敵の下から剣が出現する
+END_SETTEXT
+[レベル２]
+SET_TEXT
+	TEXT = 剣が大きくなり、当たり判定が広がる
+END_SETTEXT
+[レベル３]
+SET_TEXT
+	TEXT = 攻撃力が上がる
+END_SETTEXT
+[レベル４]
+SET_TEXT
+	TEXT = 攻撃力が上がる
+END_SETTEXT
+[レベルMAX]
+SET_TEXT
+	TEXT = 剣が大きくなり、当たり判定が広がる
+END_SETTEXT
+
+END

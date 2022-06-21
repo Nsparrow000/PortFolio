@@ -1,0 +1,20 @@
+SET_TEXT
+	TEXT = 敵からの攻撃を防ぐダメージガードを展開する
+END_SETTEXT
+[レベル２]
+SET_TEXT
+	TEXT = ガードの数が１１個になる
+END_SETTEXT
+[レベル３]
+SET_TEXT
+	TEXT = ガードの数が１３個になる
+END_SETTEXT
+[レベル４]
+SET_TEXT
+	TEXT = ガードの数が１５個になる
+END_SETTEXT
+[レベルMAX]
+SET_TEXT
+	TEXT = ガードの数が２０個になる
+END_SETTEXT
+END

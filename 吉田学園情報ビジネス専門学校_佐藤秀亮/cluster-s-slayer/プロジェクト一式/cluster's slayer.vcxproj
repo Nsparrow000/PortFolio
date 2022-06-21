@@ -1,0 +1,337 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{3A216C59-3C52-45D8-83A9-06FA2CEBB10B}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>clustersslayer</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\cluster%27s slayer\2Dnumber.h" />
+    <ClInclude Include="..\cluster%27s slayer\assistcrystal.h" />
+    <ClInclude Include="..\cluster%27s slayer\assistcrystal_model.h" />
+    <ClInclude Include="..\cluster%27s slayer\bg.h" />
+    <ClInclude Include="..\cluster%27s slayer\billboard.h" />
+    <ClInclude Include="..\cluster%27s slayer\billeffect.h" />
+    <ClInclude Include="..\cluster%27s slayer\blackhole.h" />
+    <ClInclude Include="..\cluster%27s slayer\bullet.h" />
+    <ClInclude Include="..\cluster%27s slayer\camera.h" />
+    <ClInclude Include="..\cluster%27s slayer\character.h" />
+    <ClInclude Include="..\cluster%27s slayer\character_partsdata.h" />
+    <ClInclude Include="..\cluster%27s slayer\collision.h" />
+    <ClInclude Include="..\cluster%27s slayer\damage_collision.h" />
+    <ClInclude Include="..\cluster%27s slayer\directinput.h" />
+    <ClInclude Include="..\cluster%27s slayer\effect.h" />
+    <ClInclude Include="..\cluster%27s slayer\effect2d.h" />
+    <ClInclude Include="..\cluster%27s slayer\enemy.h" />
+    <ClInclude Include="..\cluster%27s slayer\enemy001.h" />
+    <ClInclude Include="..\cluster%27s slayer\enemy_goblin.h" />
+    <ClInclude Include="..\cluster%27s slayer\enemy_spawn_manager.h" />
+    <ClInclude Include="..\cluster%27s slayer\exp_ball.h" />
+    <ClInclude Include="..\cluster%27s slayer\fade.h" />
+    <ClInclude Include="..\cluster%27s slayer\field.h" />
+    <ClInclude Include="..\cluster%27s slayer\FieldEffect.h" />
+    <ClInclude Include="..\cluster%27s slayer\frame.h" />
+    <ClInclude Include="..\cluster%27s slayer\game.h" />
+    <ClInclude Include="..\cluster%27s slayer\gametimer.h" />
+    <ClInclude Include="..\cluster%27s slayer\gauge.h" />
+    <ClInclude Include="..\cluster%27s slayer\gaugeber.h" />
+    <ClInclude Include="..\cluster%27s slayer\guard.h" />
+    <ClInclude Include="..\cluster%27s slayer\input.h" />
+    <ClInclude Include="..\cluster%27s slayer\item.h" />
+    <ClInclude Include="..\cluster%27s slayer\keyboard.h" />
+    <ClInclude Include="..\cluster%27s slayer\layer_structure.h" />
+    <ClInclude Include="..\cluster%27s slayer\letter.h" />
+    <ClInclude Include="..\cluster%27s slayer\light.h" />
+    <ClInclude Include="..\cluster%27s slayer\LoadEffect.h" />
+    <ClInclude Include="..\cluster%27s slayer\main.h" />
+    <ClInclude Include="..\cluster%27s slayer\manager.h" />
+    <ClInclude Include="..\cluster%27s slayer\map_polygon.h" />
+    <ClInclude Include="..\cluster%27s slayer\meshsphere.h" />
+    <ClInclude Include="..\cluster%27s slayer\missile.h" />
+    <ClInclude Include="..\cluster%27s slayer\missile_bullet.h" />
+    <ClInclude Include="..\cluster%27s slayer\model.h" />
+    <ClInclude Include="..\cluster%27s slayer\model_spawner.h" />
+    <ClInclude Include="..\cluster%27s slayer\motion.h" />
+    <ClInclude Include="..\cluster%27s slayer\mouse.h" />
+    <ClInclude Include="..\cluster%27s slayer\MouseTracking.h" />
+    <ClInclude Include="..\cluster%27s slayer\Movement.h" />
+    <ClInclude Include="..\cluster%27s slayer\resultselectbotton.h" />
+    <ClInclude Include="..\cluster%27s slayer\Rotate.h" />
+    <ClInclude Include="..\cluster%27s slayer\skill_leveldata.h" />
+    <ClInclude Include="3Dpolygon.h" />
+    <ClInclude Include="..\cluster%27s slayer\number.h" />
+    <ClInclude Include="..\cluster%27s slayer\Particle.h" />
+    <ClInclude Include="..\cluster%27s slayer\pause.h" />
+    <ClInclude Include="..\cluster%27s slayer\plane.h" />
+    <ClInclude Include="..\cluster%27s slayer\player.h" />
+    <ClInclude Include="..\cluster%27s slayer\Polygon.h" />
+    <ClInclude Include="..\cluster%27s slayer\PresetSetEffect.h" />
+    <ClInclude Include="..\cluster%27s slayer\Renderer.h" />
+    <ClInclude Include="..\cluster%27s slayer\result.h" />
+    <ClInclude Include="..\cluster%27s slayer\Rotate3d.h" />
+    <ClInclude Include="..\cluster%27s slayer\rushattack.h" />
+    <ClInclude Include="..\cluster%27s slayer\scene.h" />
+    <ClInclude Include="..\cluster%27s slayer\scene2D.h" />
+    <ClInclude Include="..\cluster%27s slayer\Scene3D.h" />
+    <ClInclude Include="..\cluster%27s slayer\score.h" />
+    <ClInclude Include="..\cluster%27s slayer\selectbottom.h" />
+    <ClInclude Include="..\cluster%27s slayer\shadow.h" />
+    <ClInclude Include="..\cluster%27s slayer\skillselect.h" />
+    <ClInclude Include="..\cluster%27s slayer\smallscore.h" />
+    <ClInclude Include="..\cluster%27s slayer\sound.h" />
+    <ClInclude Include="..\cluster%27s slayer\Sphere.h" />
+    <ClInclude Include="..\cluster%27s slayer\SphereEffect.h" />
+    <ClInclude Include="..\cluster%27s slayer\stage.h" />
+    <ClInclude Include="..\cluster%27s slayer\stage_preset.h" />
+    <ClInclude Include="..\cluster%27s slayer\stage_preset_data.h" />
+    <ClInclude Include="..\cluster%27s slayer\straight3d.h" />
+    <ClInclude Include="..\cluster%27s slayer\sword.h" />
+    <ClInclude Include="..\cluster%27s slayer\texture.h" />
+    <ClInclude Include="..\cluster%27s slayer\title.h" />
+    <ClInclude Include="..\cluster%27s slayer\wall.h" />
+    <ClInclude Include="..\cluster%27s slayer\weapon.h" />
+    <ClInclude Include="..\cluster%27s slayer\XInput.h" />
+    <ClInclude Include="..\cluster%27s slayer\xload.h" />
+    <ClInclude Include="gamemenu.h" />
+    <ClInclude Include="savedata.h" />
+    <ClInclude Include="titleselectbutton.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\cluster%27s slayer\2Dnumber.cpp" />
+    <ClCompile Include="..\cluster%27s slayer\assistcrystal.cpp" />
+    <ClCompile Include="..\cluster%27s slayer\assistcrystal_model.cpp" />
+    <ClCompile Include="..\cluster%27s slayer\bg.cpp" />
+    <ClCompile Include="..\cluster%27s slayer\billboard.cpp" />
+    <ClCompile Include="..\cluster%27s slayer\billeffect.cpp" />
+    <ClCompile Include="..\cluster%27s slayer\blackhole.cpp" />
+    <ClCompile Include="..\cluster%27s slayer\bullet.cpp" />
+    <ClCompile Include="..\cluster%27s slayer\camera.cpp" />
+    <ClCompile Include="..\cluster%27s slayer\character.cpp" />
+    <ClCompile Include="..\cluster%27s slayer\character_partsdata.cpp" />
+    <ClCompile Include="..\cluster%27s slayer\collision.cpp" />
+    <ClCompile Include="..\cluster%27s slayer\effect2d.cpp" />
+    <ClCompile Include="..\cluster%27s slayer\gametimer.cpp" />
+    <ClCompile Include="..\cluster%27s slayer\guard.cpp" />
+    <ClCompile Include="..\cluster%27s slayer\letter.cpp" />
+    <ClCompile Include="..\cluster%27s slayer\missile.cpp" />
+    <ClCompile Include="..\cluster%27s slayer\missile_bullet.cpp" />
+    <ClCompile Include="..\cluster%27s slayer\MouseTracking.cpp" />
+    <ClCompile Include="..\cluster%27s slayer\Movement.cpp" />
+    <ClCompile Include="..\cluster%27s slayer\resultselectbotton.cpp" />
+    <ClCompile Include="..\cluster%27s slayer\Rotate.cpp" />
+    <ClCompile Include="..\cluster%27s slayer\skill_leveldata.cpp" />
+    <ClCompile Include="3Dpolygon.cpp" />
+    <ClCompile Include="..\cluster%27s slayer\Sphere.cpp" />
+    <ClCompile Include="..\cluster%27s slayer\SphereEffect.cpp" />
+    <ClCompile Include="damage_collision.cpp" />
+    <ClCompile Include="..\cluster%27s slayer\directinput.cpp" />
+    <ClCompile Include="..\cluster%27s slayer\effect.cpp" />
+    <ClCompile Include="..\cluster%27s slayer\enemy.cpp" />
+    <ClCompile Include="..\cluster%27s slayer\enemy001.cpp" />
+    <ClCompile Include="..\cluster%27s slayer\enemy_goblin.cpp" />
+    <ClCompile Include="..\cluster%27s slayer\enemy_spawn_manager.cpp" />
+    <ClCompile Include="..\cluster%27s slayer\exp_ball.cpp" />
+    <ClCompile Include="..\cluster%27s slayer\fade.cpp" />
+    <ClCompile Include="..\cluster%27s slayer\field.cpp" />
+    <ClCompile Include="..\cluster%27s slayer\FieldEffect.cpp" />
+    <ClCompile Include="..\cluster%27s slayer\frame.cpp" />
+    <ClCompile Include="..\cluster%27s slayer\game.cpp" />
+    <ClCompile Include="..\cluster%27s slayer\gauge.cpp" />
+    <ClCompile Include="..\cluster%27s slayer\gaugeber.cpp" />
+    <ClCompile Include="..\cluster%27s slayer\input.cpp" />
+    <ClCompile Include="..\cluster%27s slayer\item.cpp" />
+    <ClCompile Include="..\cluster%27s slayer\keyboard.cpp" />
+    <ClCompile Include="..\cluster%27s slayer\layer_structure.cpp" />
+    <ClCompile Include="..\cluster%27s slayer\light.cpp" />
+    <ClCompile Include="..\cluster%27s slayer\LoadEffect.cpp" />
+    <ClCompile Include="..\cluster%27s slayer\main.cpp" />
+    <ClCompile Include="..\cluster%27s slayer\manager.cpp" />
+    <ClCompile Include="..\cluster%27s slayer\map_polygon.cpp" />
+    <ClCompile Include="..\cluster%27s slayer\meshsphere.cpp" />
+    <ClCompile Include="..\cluster%27s slayer\model.cpp" />
+    <ClCompile Include="..\cluster%27s slayer\model_spawner.cpp" />
+    <ClCompile Include="..\cluster%27s slayer\motion.cpp" />
+    <ClCompile Include="..\cluster%27s slayer\mouse.cpp" />
+    <ClCompile Include="..\cluster%27s slayer\number.cpp" />
+    <ClCompile Include="..\cluster%27s slayer\Particle.cpp" />
+    <ClCompile Include="..\cluster%27s slayer\pause.cpp" />
+    <ClCompile Include="..\cluster%27s slayer\plane.cpp" />
+    <ClCompile Include="..\cluster%27s slayer\player.cpp" />
+    <ClCompile Include="..\cluster%27s slayer\polygon.cpp" />
+    <ClCompile Include="..\cluster%27s slayer\PresetSetEffect.cpp" />
+    <ClCompile Include="..\cluster%27s slayer\Renderer.cpp" />
+    <ClCompile Include="..\cluster%27s slayer\result.cpp" />
+    <ClCompile Include="..\cluster%27s slayer\Rotate3d.cpp" />
+    <ClCompile Include="..\cluster%27s slayer\rushattack.cpp" />
+    <ClCompile Include="..\cluster%27s slayer\scene.cpp" />
+    <ClCompile Include="..\cluster%27s slayer\scene2D.cpp" />
+    <ClCompile Include="..\cluster%27s slayer\Scene3D.cpp" />
+    <ClCompile Include="..\cluster%27s slayer\score.cpp" />
+    <ClCompile Include="..\cluster%27s slayer\selectbottom.cpp" />
+    <ClCompile Include="..\cluster%27s slayer\shadow.cpp" />
+    <ClCompile Include="..\cluster%27s slayer\skillselect.cpp" />
+    <ClCompile Include="..\cluster%27s slayer\smallscore.cpp" />
+    <ClCompile Include="..\cluster%27s slayer\sound.cpp" />
+    <ClCompile Include="..\cluster%27s slayer\stage.cpp" />
+    <ClCompile Include="..\cluster%27s slayer\stage_preset.cpp" />
+    <ClCompile Include="..\cluster%27s slayer\stage_preset_data.cpp" />
+    <ClCompile Include="..\cluster%27s slayer\straight3d.cpp" />
+    <ClCompile Include="..\cluster%27s slayer\sword.cpp" />
+    <ClCompile Include="..\cluster%27s slayer\texture.cpp" />
+    <ClCompile Include="..\cluster%27s slayer\title.cpp" />
+    <ClCompile Include="..\cluster%27s slayer\wall.cpp" />
+    <ClCompile Include="..\cluster%27s slayer\weapon.cpp" />
+    <ClCompile Include="..\cluster%27s slayer\XInput.cpp" />
+    <ClCompile Include="..\cluster%27s slayer\xload.cpp" />
+    <ClCompile Include="gamemenu.cpp" />
+    <ClCompile Include="savedata.cpp" />
+    <ClCompile Include="titleselectbutton.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,16 @@
+﻿  MouseTracking.cpp
+  Movement.cpp
+  PresetSetEffect.cpp
+..\cluster's slayer\PresetSetEffect.cpp(394): warning C4244: '引数': 'int' から 'float' への変換です。データが失われる可能性があります。
+..\cluster's slayer\PresetSetEffect.cpp(505): warning C4244: '引数': 'int' から 'float' への変換です。データが失われる可能性があります。
+..\cluster's slayer\PresetSetEffect.cpp(505): warning C4244: '引数': 'double' から 'float' への変換です。データが失われる可能性があります。
+..\cluster's slayer\PresetSetEffect.cpp(534): warning C4244: '引数': 'int' から 'float' への変換です。データが失われる可能性があります。
+  Rotate.cpp
+  effect2d.cpp
+  コード生成しています。
+  0 of 2374 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  コード生成が終了しました。
+  cluster's slayer.vcxproj -> C:\Users\student\Desktop\git\cluster-s-slayer\cluster's slayer\Release\cluster's slayer.exe
+  cluster's slayer.vcxproj -> C:\Users\student\Desktop\git\cluster-s-slayer\cluster's slayer\Release\cluster's slayer.pdb (Full PDB)

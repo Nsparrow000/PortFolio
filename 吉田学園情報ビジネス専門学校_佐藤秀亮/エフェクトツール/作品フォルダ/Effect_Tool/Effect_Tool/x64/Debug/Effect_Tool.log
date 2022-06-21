@@ -1,0 +1,115 @@
+﻿  Trajectory.cpp
+  ThunderBill.cpp
+  MouseTracking.cpp
+  straight3d.cpp
+  SphereEffect.cpp
+  Sphere.cpp
+  SetMesh.cpp
+  SetEffect3d.cpp
+c:\users\student\desktop\プログラム\ツール\buckup\effect_tool\effect_tool\seteffect3d.cpp(24): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+c:\users\student\desktop\プログラム\ツール\buckup\effect_tool\effect_tool\seteffect3d.cpp(27): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+c:\users\student\desktop\プログラム\ツール\buckup\effect_tool\effect_tool\seteffect3d.cpp(183): warning C4244: '引数': 'double' から 'float' への変換です。データが失われる可能性があります。
+  seteffect.cpp
+  scene3d.cpp
+  scene2d.cpp
+  scene.cpp
+  Rotate3d.cpp
+  Rotate.cpp
+  renderer.cpp
+  PresetSetEffect.cpp
+c:\users\student\desktop\プログラム\ツール\buckup\effect_tool\effect_tool\presetseteffect.cpp(409): warning C4244: '引数': 'int' から 'float' への変換です。データが失われる可能性があります。
+c:\users\student\desktop\プログラム\ツール\buckup\effect_tool\effect_tool\presetseteffect.cpp(524): warning C4244: '引数': 'int' から 'float' への変換です。データが失われる可能性があります。
+c:\users\student\desktop\プログラム\ツール\buckup\effect_tool\effect_tool\presetseteffect.cpp(524): warning C4244: '引数': 'double' から 'float' への変換です。データが失われる可能性があります。
+c:\users\student\desktop\プログラム\ツール\buckup\effect_tool\effect_tool\presetseteffect.cpp(555): warning C4244: '引数': 'int' から 'float' への変換です。データが失われる可能性があります。
+c:\users\student\desktop\プログラム\ツール\buckup\effect_tool\effect_tool\presetseteffect.cpp(595): warning C4244: '引数': 'int' から 'float' への変換です。データが失われる可能性があります。
+c:\users\student\desktop\プログラム\ツール\buckup\effect_tool\effect_tool\presetseteffect.cpp(628): warning C4244: '引数': 'int' から 'float' への変換です。データが失われる可能性があります。
+c:\users\student\desktop\プログラム\ツール\buckup\effect_tool\effect_tool\presetseteffect.cpp(628): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+  player.cpp
+c:\users\student\desktop\プログラム\ツール\buckup\effect_tool\effect_tool\player.cpp(27): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+c:\users\student\desktop\プログラム\ツール\buckup\effect_tool\effect_tool\player.cpp(30): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+c:\users\student\desktop\プログラム\ツール\buckup\effect_tool\effect_tool\player.cpp(500): warning C4244: '引数': 'const float' から 'int' への変換です。データが失われる可能性があります。
+  plane.cpp
+  object.cpp
+  Movement.cpp
+  コードを生成中...
+  コンパイル中...
+  mouse.cpp
+  model.cpp
+  MeshEffect.cpp
+  manager.cpp
+  main.cpp
+  LoadEffect.cpp
+c:\users\student\desktop\プログラム\ツール\buckup\effect_tool\effect_tool\loadeffect.cpp(470): warning C4800: 'int': ブール値を 'true' または 'false' に強制的に設定します (警告の処理)
+c:\users\student\desktop\プログラム\ツール\buckup\effect_tool\effect_tool\loadeffect.cpp(483): warning C4800: 'int': ブール値を 'true' または 'false' に強制的に設定します (警告の処理)
+c:\users\student\desktop\プログラム\ツール\buckup\effect_tool\effect_tool\loadeffect.cpp(485): warning C4800: 'int': ブール値を 'true' または 'false' に強制的に設定します (警告の処理)
+c:\users\student\desktop\プログラム\ツール\buckup\effect_tool\effect_tool\loadeffect.cpp(412): warning C4477: 'fscanf' : 書式文字列 '%f' には、型 'float *' の引数が必要ですが、可変個引数 1 は型 'D3DXVECTOR2 *' です
+  load.cpp
+  light.cpp
+  keyboard.cpp
+  IntermediateSave.cpp
+  input.cpp
+  FieldEffect.cpp
+  field.cpp
+  fade.cpp
+  effect.cpp
+  control.cpp
+  camera.cpp
+  Butten.cpp
+c:\users\student\desktop\プログラム\ツール\buckup\effect_tool\effect_tool\butten.cpp(26): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+c:\users\student\desktop\プログラム\ツール\buckup\effect_tool\effect_tool\butten.cpp(29): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+c:\users\student\desktop\プログラム\ツール\buckup\effect_tool\effect_tool\butten.cpp(365): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+c:\users\student\desktop\プログラム\ツール\buckup\effect_tool\effect_tool\butten.cpp(374): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+c:\users\student\desktop\プログラム\ツール\buckup\effect_tool\effect_tool\butten.cpp(392): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+c:\users\student\desktop\プログラム\ツール\buckup\effect_tool\effect_tool\butten.cpp(395): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+  billeffect.cpp
+  BezierBill.cpp
+c:\users\student\desktop\プログラム\ツール\buckup\effect_tool\effect_tool\bezierbill.cpp(95): warning C4244: '初期化中': 'double' から 'float' への変換です。データが失われる可能性があります。
+c:\users\student\desktop\プログラム\ツール\buckup\effect_tool\effect_tool\bezierbill.cpp(96): warning C4244: '初期化中': 'double' から 'float' への変換です。データが失われる可能性があります。
+c:\users\student\desktop\プログラム\ツール\buckup\effect_tool\effect_tool\bezierbill.cpp(177): warning C4244: '引数': 'double' から 'FLOAT' への変換です。データが失われる可能性があります。
+c:\users\student\desktop\プログラム\ツール\buckup\effect_tool\effect_tool\bezierbill.cpp(254): warning C4244: '引数': 'double' から 'FLOAT' への変換です。データが失われる可能性があります。
+c:\users\student\desktop\プログラム\ツール\buckup\effect_tool\effect_tool\bezierbill.cpp(418): warning C4244: '引数': 'double' から 'FLOAT' への変換です。データが失われる可能性があります。
+  コードを生成中...
+  コンパイル中...
+  ActiveBillboard.cpp
+  3DScene.cpp
+  2DScene.cpp
+  コードを生成中...
+ThunderBill.obj : error LNK2019: 未解決の外部シンボル D3DXMatrixMultiply が関数 "public: long __cdecl CThunderBill::Init(struct D3DXVECTOR3,struct D3DXVECTOR3,struct D3DXVECTOR3,struct _D3DCOLORVALUE,struct _D3DCOLORVALUE,int,int,float,struct D3DXVECTOR2,struct D3DXVECTOR2,int,struct D3DXVECTOR2,float,struct D3DXVECTOR3,int,enum CBillEffect::ANIMPATTERN)" (?Init@CThunderBill@@QEAAJUD3DXVECTOR3@@00U_D3DCOLORVALUE@@1HHMUD3DXVECTOR2@@2H2M0HW4ANIMPATTERN@CBillEffect@@@Z) で参照されました。
+billeffect.obj : error LNK2001: 外部シンボル "D3DXMatrixMultiply" は未解決です。
+model.obj : error LNK2001: 外部シンボル "D3DXMatrixMultiply" は未解決です。
+plane.obj : error LNK2001: 外部シンボル "D3DXMatrixMultiply" は未解決です。
+player.obj : error LNK2001: 外部シンボル "D3DXMatrixMultiply" は未解決です。
+billeffect.obj : error LNK2019: 未解決の外部シンボル D3DXMatrixInverse が関数 "public: virtual void __cdecl CBillEffect::Draw(void)" (?Draw@CBillEffect@@UEAAXXZ) で参照されました。
+ThunderBill.obj : error LNK2001: 外部シンボル "D3DXMatrixTranslation" は未解決です。
+billeffect.obj : error LNK2001: 外部シンボル "D3DXMatrixTranslation" は未解決です。
+model.obj : error LNK2001: 外部シンボル "D3DXMatrixTranslation" は未解決です。
+plane.obj : error LNK2001: 外部シンボル "D3DXMatrixTranslation" は未解決です。
+player.obj : error LNK2001: 外部シンボル "D3DXMatrixTranslation" は未解決です。
+camera.obj : error LNK2019: 未解決の外部シンボル D3DXMatrixLookAtLH が関数 "public: long __cdecl CCamera::Init(struct D3DXVECTOR3,float,struct D3DXVECTOR3)" (?Init@CCamera@@QEAAJUD3DXVECTOR3@@M0@Z) で参照されました。
+camera.obj : error LNK2019: 未解決の外部シンボル D3DXMatrixPerspectiveFovLH が関数 "public: long __cdecl CCamera::Init(struct D3DXVECTOR3,float,struct D3DXVECTOR3)" (?Init@CCamera@@QEAAJUD3DXVECTOR3@@M0@Z) で参照されました。
+input.obj : error LNK2019: 未解決の外部シンボル DirectInput8Create が関数 "public: virtual long __cdecl CInput::Init(struct HINSTANCE__ *,struct HWND__ *)" (?Init@CInput@@UEAAJPEAUHINSTANCE__@@PEAUHWND__@@@Z) で参照されました。
+mouse.obj : error LNK2001: 外部シンボル "DirectInput8Create" は未解決です。
+input.obj : error LNK2001: 外部シンボル "IID_IDirectInput8A" は未解決です。
+mouse.obj : error LNK2001: 外部シンボル "IID_IDirectInput8A" は未解決です。
+keyboard.obj : error LNK2001: 外部シンボル "GUID_SysKeyboard" は未解決です。
+keyboard.obj : error LNK2001: 外部シンボル "c_dfDIKeyboard" は未解決です。
+light.obj : error LNK2019: 未解決の外部シンボル D3DXVec3Normalize が関数 "public: long __cdecl CLight::Init(struct D3DXCOLOR,struct D3DXVECTOR3,int)" (?Init@CLight@@QEAAJUD3DXCOLOR@@UD3DXVECTOR3@@H@Z) で参照されました。
+Sphere.obj : error LNK2001: 外部シンボル "D3DXCreateTextureFromFileA" は未解決です。
+MeshEffect.obj : error LNK2001: 外部シンボル "D3DXCreateTextureFromFileA" は未解決です。
+model.obj : error LNK2001: 外部シンボル "D3DXCreateTextureFromFileA" は未解決です。
+plane.obj : error LNK2001: 外部シンボル "D3DXCreateTextureFromFileA" は未解決です。
+scene2d.obj : error LNK2001: 外部シンボル "D3DXCreateTextureFromFileA" は未解決です。
+model.obj : error LNK2019: 未解決の外部シンボル D3DXMatrixRotationYawPitchRoll が関数 "public: void __cdecl CModel::Draw(void)" (?Draw@CModel@@QEAAXXZ) で参照されました。
+plane.obj : error LNK2001: 外部シンボル "D3DXMatrixRotationYawPitchRoll" は未解決です。
+player.obj : error LNK2001: 外部シンボル "D3DXMatrixRotationYawPitchRoll" は未解決です。
+model.obj : error LNK2019: 未解決の外部シンボル D3DXLoadMeshFromXA が関数 "public: long __cdecl CModel::Init(char const *)" (?Init@CModel@@QEAAJPEBD@Z) で参照されました。
+model.obj : error LNK2019: 未解決の外部シンボル D3DXGetFVFVertexSize が関数 "public: struct D3DXVECTOR3 __cdecl CModel::GetMaxSize(void)" (?GetMaxSize@CModel@@QEAA?AUD3DXVECTOR3@@XZ) で参照されました。
+mouse.obj : error LNK2001: 外部シンボル "GUID_SysMouse" は未解決です。
+mouse.obj : error LNK2001: 外部シンボル "c_dfDIMouse" は未解決です。
+renderer.obj : error LNK2019: 未解決の外部シンボル Direct3DCreate9 が関数 "public: long __cdecl CRenderer::Init(struct HWND__ *,bool)" (?Init@CRenderer@@QEAAJPEAUHWND__@@_N@Z) で参照されました。
+renderer.obj : error LNK2019: 未解決の外部シンボル D3DXCreateFontA が関数 "public: long __cdecl CRenderer::Init(struct HWND__ *,bool)" (?Init@CRenderer@@QEAAJPEAUHWND__@@_N@Z) で参照されました。
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x86\d3d9.lib : warning LNK4272: ライブラリのコンピューターの種類 'X86' がターゲットのコンピューターの種類' x64' と競合しています
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x86\d3dx9.lib : warning LNK4272: ライブラリのコンピューターの種類 'X86' がターゲットのコンピューターの種類' x64' と競合しています
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x86\dxguid.lib : warning LNK4272: ライブラリのコンピューターの種類 'X86' がターゲットのコンピューターの種類' x64' と競合しています
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x86\dinput8.lib : warning LNK4272: ライブラリのコンピューターの種類 'X86' がターゲットのコンピューターの種類' x64' と競合しています
+C:\Users\student\Desktop\プログラム\ツール\BuckUp\Effect_Tool\x64\Debug\Effect_Tool.exe : fatal error LNK1120: 18 件の未解決の外部参照

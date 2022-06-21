@@ -1,0 +1,58 @@
+﻿  camera.cpp
+camera.cpp(53): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+camera.cpp(54): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+camera.cpp(56): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+camera.cpp(57): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+camera.cpp(61): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+camera.cpp(62): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+camera.cpp(64): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+camera.cpp(65): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+camera.cpp(70): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+camera.cpp(71): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+camera.cpp(73): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+camera.cpp(74): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+camera.cpp(79): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+camera.cpp(80): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+camera.cpp(82): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+camera.cpp(83): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+camera.cpp(112): warning C4305: '-=': 'double' から 'float' へ切り詰めます。
+camera.cpp(120): warning C4305: '+=': 'double' から 'float' へ切り詰めます。
+  Effect.cpp
+Effect.cpp(417): warning C4305: '+=': 'double' から 'float' へ切り詰めます。
+Effect.cpp(418): warning C4305: '+=': 'double' から 'float' へ切り詰めます。
+Effect.cpp(428): warning C4305: '-=': 'double' から 'float' へ切り詰めます。
+Effect.cpp(429): warning C4305: '-=': 'double' から 'float' へ切り詰めます。
+Effect.cpp(479): warning C4244: '引数': 'int' から 'FLOAT' への変換です。データが失われる可能性があります。
+Effect.cpp(489): warning C4244: '引数': 'int' から 'FLOAT' への変換です。データが失われる可能性があります。
+Effect.cpp(498): warning C4244: '引数': 'int' から 'FLOAT' への変換です。データが失われる可能性があります。
+Effect.cpp(505): warning C4244: '引数': 'int' から 'FLOAT' への変換です。データが失われる可能性があります。
+Effect.cpp(516): warning C4244: '引数': 'int' から 'FLOAT' への変換です。データが失われる可能性があります。
+Effect.cpp(525): warning C4244: '引数': 'int' から 'FLOAT' への変換です。データが失われる可能性があります。
+Effect.cpp(537): warning C4244: '引数': 'int' から 'FLOAT' への変換です。データが失われる可能性があります。
+Effect.cpp(546): warning C4244: '引数': 'int' から 'FLOAT' への変換です。データが失われる可能性があります。
+Effect.cpp(557): warning C4244: '引数': 'int' から 'FLOAT' への変換です。データが失われる可能性があります。
+Effect.cpp(566): warning C4244: '引数': 'int' から 'FLOAT' への変換です。データが失われる可能性があります。
+Effect.cpp(578): warning C4244: '引数': 'int' から 'FLOAT' への変換です。データが失われる可能性があります。
+Effect.cpp(588): warning C4244: '引数': 'int' から 'FLOAT' への変換です。データが失われる可能性があります。
+Effect.cpp(613): warning C4305: '+=': 'double' から 'float' へ切り詰めます。
+Effect.cpp(638): warning C4305: '-=': 'double' から 'float' へ切り詰めます。
+Effect.cpp(645): warning C4553: '==': 演算子にプログラム上の作用がありません。'=' を意図しましたか?
+Effect.cpp(654): warning C4553: '==': 演算子にプログラム上の作用がありません。'=' を意図しましたか?
+Effect.cpp(673): warning C4305: '-=': 'double' から 'float' へ切り詰めます。
+Effect.cpp(674): warning C4244: '+=': 'double' から 'float' への変換です。データが失われる可能性があります。
+Effect.cpp(675): warning C4244: '+=': 'double' から 'float' への変換です。データが失われる可能性があります。
+Effect.cpp(874): warning C4244: '=': 'FLOAT' から 'int' への変換です。データが失われる可能性があります。
+Effect.cpp(875): warning C4244: '=': 'FLOAT' から 'int' への変換です。データが失われる可能性があります。
+Effect.cpp(876): warning C4244: '=': 'FLOAT' から 'int' への変換です。データが失われる可能性があります。
+Effect.cpp(877): warning C4244: '=': 'FLOAT' から 'int' への変換です。データが失われる可能性があります。
+Effect.cpp(904): warning C4244: '=': 'int' から 'float' への変換です。データが失われる可能性があります。
+Effect.cpp(908): warning C4244: '=': 'int' から 'float' への変換です。データが失われる可能性があります。
+  Field.cpp
+  input.cpp
+  ligth.cpp
+  main.cpp
+  コード生成しています。
+  All 66 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  コード生成が終了しました。
+  Effect.vcxproj -> C:\Users\student\Desktop\git\PortFolio\吉田学園情報ビジネス専門学校_佐藤秀亮\パーティクルエディター\作品\Release\Effect.exe
+  Effect.vcxproj -> C:\Users\student\Desktop\git\PortFolio\吉田学園情報ビジネス専門学校_佐藤秀亮\パーティクルエディター\作品\Release\Effect.pdb (Full PDB)

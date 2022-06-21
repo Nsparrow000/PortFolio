@@ -1,0 +1,21 @@
+SET_TEXT
+	TEXT = 一定時間経過後、複数の敵に向かってミサイルを放つ
+END_SETTEXT
+[レベル２]
+SET_TEXT
+	TEXT = ミサイルの攻撃力が上昇
+END_SETTEXT
+[レベル３]
+SET_TEXT
+	TEXT = 発射するミサイルの数が増える
+END_SETTEXT
+[レベル４]
+SET_TEXT
+	TEXT = サーチ範囲が広がる
+END_SETTEXT
+[レベルMAX]
+SET_TEXT
+	TEXT = 発射するミサイルの数が増える
+END_SETTEXT
+
+END

@@ -1,0 +1,231 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\cluster%27s slayer\2Dnumber.cpp" />
+    <ClCompile Include="..\cluster%27s slayer\assistcrystal.cpp" />
+    <ClCompile Include="..\cluster%27s slayer\assistcrystal_model.cpp" />
+    <ClCompile Include="..\cluster%27s slayer\bg.cpp" />
+    <ClCompile Include="..\cluster%27s slayer\billboard.cpp" />
+    <ClCompile Include="..\cluster%27s slayer\billeffect.cpp" />
+    <ClCompile Include="..\cluster%27s slayer\bullet.cpp" />
+    <ClCompile Include="..\cluster%27s slayer\camera.cpp" />
+    <ClCompile Include="..\cluster%27s slayer\character.cpp" />
+    <ClCompile Include="..\cluster%27s slayer\character_partsdata.cpp" />
+    <ClCompile Include="..\cluster%27s slayer\collision.cpp" />
+    <ClCompile Include="..\cluster%27s slayer\gametimer.cpp" />
+    <ClCompile Include="..\cluster%27s slayer\guard.cpp" />
+    <ClCompile Include="..\cluster%27s slayer\letter.cpp" />
+    <ClCompile Include="..\cluster%27s slayer\missile.cpp" />
+    <ClCompile Include="..\cluster%27s slayer\missile_bullet.cpp" />
+    <ClCompile Include="..\cluster%27s slayer\Rotate.cpp" />
+    <ClCompile Include="3Dpolygon.cpp" />
+    <ClCompile Include="damage_collision.cpp" />
+    <ClCompile Include="..\cluster%27s slayer\directinput.cpp" />
+    <ClCompile Include="..\cluster%27s slayer\effect.cpp" />
+    <ClCompile Include="..\cluster%27s slayer\enemy.cpp" />
+    <ClCompile Include="..\cluster%27s slayer\enemy001.cpp" />
+    <ClCompile Include="..\cluster%27s slayer\enemy_goblin.cpp" />
+    <ClCompile Include="..\cluster%27s slayer\enemy_spawn_manager.cpp" />
+    <ClCompile Include="..\cluster%27s slayer\exp_ball.cpp" />
+    <ClCompile Include="..\cluster%27s slayer\fade.cpp" />
+    <ClCompile Include="..\cluster%27s slayer\field.cpp" />
+    <ClCompile Include="..\cluster%27s slayer\frame.cpp" />
+    <ClCompile Include="..\cluster%27s slayer\game.cpp" />
+    <ClCompile Include="..\cluster%27s slayer\gauge.cpp" />
+    <ClCompile Include="..\cluster%27s slayer\gaugeber.cpp" />
+    <ClCompile Include="..\cluster%27s slayer\input.cpp" />
+    <ClCompile Include="..\cluster%27s slayer\item.cpp" />
+    <ClCompile Include="..\cluster%27s slayer\keyboard.cpp" />
+    <ClCompile Include="..\cluster%27s slayer\layer_structure.cpp" />
+    <ClCompile Include="..\cluster%27s slayer\light.cpp" />
+    <ClCompile Include="..\cluster%27s slayer\main.cpp" />
+    <ClCompile Include="..\cluster%27s slayer\manager.cpp" />
+    <ClCompile Include="..\cluster%27s slayer\map_polygon.cpp" />
+    <ClCompile Include="..\cluster%27s slayer\meshsphere.cpp" />
+    <ClCompile Include="..\cluster%27s slayer\model.cpp" />
+    <ClCompile Include="..\cluster%27s slayer\model_spawner.cpp" />
+    <ClCompile Include="..\cluster%27s slayer\motion.cpp" />
+    <ClCompile Include="..\cluster%27s slayer\mouse.cpp" />
+    <ClCompile Include="..\cluster%27s slayer\number.cpp" />
+    <ClCompile Include="..\cluster%27s slayer\Particle.cpp" />
+    <ClCompile Include="..\cluster%27s slayer\pause.cpp" />
+    <ClCompile Include="..\cluster%27s slayer\plane.cpp" />
+    <ClCompile Include="..\cluster%27s slayer\player.cpp" />
+    <ClCompile Include="..\cluster%27s slayer\polygon.cpp" />
+    <ClCompile Include="..\cluster%27s slayer\Renderer.cpp" />
+    <ClCompile Include="..\cluster%27s slayer\result.cpp" />
+    <ClCompile Include="..\cluster%27s slayer\Rotate3d.cpp" />
+    <ClCompile Include="..\cluster%27s slayer\rushattack.cpp" />
+    <ClCompile Include="..\cluster%27s slayer\scene.cpp" />
+    <ClCompile Include="..\cluster%27s slayer\scene2D.cpp" />
+    <ClCompile Include="..\cluster%27s slayer\Scene3D.cpp" />
+    <ClCompile Include="..\cluster%27s slayer\score.cpp" />
+    <ClCompile Include="..\cluster%27s slayer\selectbottom.cpp" />
+    <ClCompile Include="..\cluster%27s slayer\shadow.cpp" />
+    <ClCompile Include="..\cluster%27s slayer\skillselect.cpp" />
+    <ClCompile Include="..\cluster%27s slayer\smallscore.cpp" />
+    <ClCompile Include="..\cluster%27s slayer\sound.cpp" />
+    <ClCompile Include="..\cluster%27s slayer\stage.cpp" />
+    <ClCompile Include="..\cluster%27s slayer\stage_preset.cpp" />
+    <ClCompile Include="..\cluster%27s slayer\stage_preset_data.cpp" />
+    <ClCompile Include="..\cluster%27s slayer\straight3d.cpp" />
+    <ClCompile Include="..\cluster%27s slayer\sword.cpp" />
+    <ClCompile Include="..\cluster%27s slayer\texture.cpp" />
+    <ClCompile Include="..\cluster%27s slayer\title.cpp" />
+    <ClCompile Include="..\cluster%27s slayer\wall.cpp" />
+    <ClCompile Include="..\cluster%27s slayer\weapon.cpp" />
+    <ClCompile Include="..\cluster%27s slayer\XInput.cpp" />
+    <ClCompile Include="..\cluster%27s slayer\xload.cpp" />
+    <ClCompile Include="gamemenu.cpp" />
+    <ClCompile Include="savedata.cpp" />
+    <ClCompile Include="titleselectbutton.cpp" />
+    <ClCompile Include="..\cluster%27s slayer\blackhole.cpp">
+      <Filter>NewFilter1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cluster%27s slayer\skill_leveldata.cpp">
+      <Filter>NewFilter1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cluster%27s slayer\LoadEffect.cpp">
+      <Filter>Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cluster%27s slayer\effect2d.cpp">
+      <Filter>Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cluster%27s slayer\FieldEffect.cpp">
+      <Filter>Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cluster%27s slayer\MouseTracking.cpp">
+      <Filter>Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cluster%27s slayer\Movement.cpp">
+      <Filter>Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cluster%27s slayer\SphereEffect.cpp">
+      <Filter>Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cluster%27s slayer\Sphere.cpp">
+      <Filter>Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cluster%27s slayer\PresetSetEffect.cpp">
+      <Filter>Effect</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\cluster%27s slayer\2Dnumber.h" />
+    <ClInclude Include="..\cluster%27s slayer\assistcrystal.h" />
+    <ClInclude Include="..\cluster%27s slayer\assistcrystal_model.h" />
+    <ClInclude Include="..\cluster%27s slayer\bg.h" />
+    <ClInclude Include="..\cluster%27s slayer\billboard.h" />
+    <ClInclude Include="..\cluster%27s slayer\billeffect.h" />
+    <ClInclude Include="..\cluster%27s slayer\bullet.h" />
+    <ClInclude Include="..\cluster%27s slayer\camera.h" />
+    <ClInclude Include="..\cluster%27s slayer\character.h" />
+    <ClInclude Include="..\cluster%27s slayer\character_partsdata.h" />
+    <ClInclude Include="..\cluster%27s slayer\collision.h" />
+    <ClInclude Include="..\cluster%27s slayer\damage_collision.h" />
+    <ClInclude Include="..\cluster%27s slayer\directinput.h" />
+    <ClInclude Include="..\cluster%27s slayer\effect.h" />
+    <ClInclude Include="..\cluster%27s slayer\enemy.h" />
+    <ClInclude Include="..\cluster%27s slayer\enemy001.h" />
+    <ClInclude Include="..\cluster%27s slayer\enemy_goblin.h" />
+    <ClInclude Include="..\cluster%27s slayer\enemy_spawn_manager.h" />
+    <ClInclude Include="..\cluster%27s slayer\exp_ball.h" />
+    <ClInclude Include="..\cluster%27s slayer\fade.h" />
+    <ClInclude Include="..\cluster%27s slayer\field.h" />
+    <ClInclude Include="..\cluster%27s slayer\frame.h" />
+    <ClInclude Include="..\cluster%27s slayer\game.h" />
+    <ClInclude Include="..\cluster%27s slayer\gametimer.h" />
+    <ClInclude Include="..\cluster%27s slayer\gauge.h" />
+    <ClInclude Include="..\cluster%27s slayer\gaugeber.h" />
+    <ClInclude Include="..\cluster%27s slayer\guard.h" />
+    <ClInclude Include="..\cluster%27s slayer\input.h" />
+    <ClInclude Include="..\cluster%27s slayer\item.h" />
+    <ClInclude Include="..\cluster%27s slayer\keyboard.h" />
+    <ClInclude Include="..\cluster%27s slayer\layer_structure.h" />
+    <ClInclude Include="..\cluster%27s slayer\letter.h" />
+    <ClInclude Include="..\cluster%27s slayer\light.h" />
+    <ClInclude Include="..\cluster%27s slayer\main.h" />
+    <ClInclude Include="..\cluster%27s slayer\manager.h" />
+    <ClInclude Include="..\cluster%27s slayer\map_polygon.h" />
+    <ClInclude Include="..\cluster%27s slayer\meshsphere.h" />
+    <ClInclude Include="..\cluster%27s slayer\missile.h" />
+    <ClInclude Include="..\cluster%27s slayer\missile_bullet.h" />
+    <ClInclude Include="..\cluster%27s slayer\model.h" />
+    <ClInclude Include="..\cluster%27s slayer\model_spawner.h" />
+    <ClInclude Include="..\cluster%27s slayer\motion.h" />
+    <ClInclude Include="..\cluster%27s slayer\mouse.h" />
+    <ClInclude Include="..\cluster%27s slayer\Rotate.h" />
+    <ClInclude Include="3Dpolygon.h" />
+    <ClInclude Include="..\cluster%27s slayer\number.h" />
+    <ClInclude Include="..\cluster%27s slayer\Particle.h" />
+    <ClInclude Include="..\cluster%27s slayer\pause.h" />
+    <ClInclude Include="..\cluster%27s slayer\plane.h" />
+    <ClInclude Include="..\cluster%27s slayer\player.h" />
+    <ClInclude Include="..\cluster%27s slayer\Polygon.h" />
+    <ClInclude Include="..\cluster%27s slayer\Renderer.h" />
+    <ClInclude Include="..\cluster%27s slayer\result.h" />
+    <ClInclude Include="..\cluster%27s slayer\Rotate3d.h" />
+    <ClInclude Include="..\cluster%27s slayer\rushattack.h" />
+    <ClInclude Include="..\cluster%27s slayer\scene.h" />
+    <ClInclude Include="..\cluster%27s slayer\scene2D.h" />
+    <ClInclude Include="..\cluster%27s slayer\Scene3D.h" />
+    <ClInclude Include="..\cluster%27s slayer\score.h" />
+    <ClInclude Include="..\cluster%27s slayer\selectbottom.h" />
+    <ClInclude Include="..\cluster%27s slayer\shadow.h" />
+    <ClInclude Include="..\cluster%27s slayer\skillselect.h" />
+    <ClInclude Include="..\cluster%27s slayer\smallscore.h" />
+    <ClInclude Include="..\cluster%27s slayer\sound.h" />
+    <ClInclude Include="..\cluster%27s slayer\stage.h" />
+    <ClInclude Include="..\cluster%27s slayer\stage_preset.h" />
+    <ClInclude Include="..\cluster%27s slayer\stage_preset_data.h" />
+    <ClInclude Include="..\cluster%27s slayer\straight3d.h" />
+    <ClInclude Include="..\cluster%27s slayer\sword.h" />
+    <ClInclude Include="..\cluster%27s slayer\texture.h" />
+    <ClInclude Include="..\cluster%27s slayer\title.h" />
+    <ClInclude Include="..\cluster%27s slayer\wall.h" />
+    <ClInclude Include="..\cluster%27s slayer\weapon.h" />
+    <ClInclude Include="..\cluster%27s slayer\XInput.h" />
+    <ClInclude Include="..\cluster%27s slayer\xload.h" />
+    <ClInclude Include="gamemenu.h" />
+    <ClInclude Include="savedata.h" />
+    <ClInclude Include="titleselectbutton.h" />
+    <ClInclude Include="..\cluster%27s slayer\blackhole.h">
+      <Filter>NewFilter1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cluster%27s slayer\skill_leveldata.h">
+      <Filter>NewFilter1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cluster%27s slayer\LoadEffect.h">
+      <Filter>Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cluster%27s slayer\effect2d.h">
+      <Filter>Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cluster%27s slayer\FieldEffect.h">
+      <Filter>Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cluster%27s slayer\MouseTracking.h">
+      <Filter>Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cluster%27s slayer\Movement.h">
+      <Filter>Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cluster%27s slayer\Sphere.h">
+      <Filter>Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cluster%27s slayer\SphereEffect.h">
+      <Filter>Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cluster%27s slayer\PresetSetEffect.h">
+      <Filter>Effect</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="NewFilter1">
+      <UniqueIdentifier>{a9b12d67-4b22-414b-a895-f0114576b679}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Effect">
+      <UniqueIdentifier>{62fbd191-673a-437f-93b4-af6f11d02b67}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
